@@ -1,0 +1,220 @@
+<meta charset="utf-8" /> 
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="//dl.dropbox.com/s/50g6fbds3rh4m0j/saturnicons.css" rel="stylesheet">
+<style>
+  /*SCROLL BAR*/
+::-webkit-scrollbar{
+  width: 5px; /*largeur de la scrollbar verticale*/
+  height: 3px; /*hauteur de la scrollbar horizontale*/
+}
+::-webkit-scrollbar-track {
+  background-color: white; /*couleur du fond de la scrollbar*/
+  border: 1px solid white;  /*bordure*/
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(30deg, #9B0500, #13100e) /*couleur de l'ascenseur*/;
+  border-radius: 0px;   /*arrondi des coins de l’ascenseur*/
+  /*bordure de l'ascenseur*/
+}
+/*FIN SCROLLBAR*/
+  #naviigo2 {background: #0d0c0a;
+border-bottom: 1px solid #2a2623;
+  width:478px;
+    border-top: 1px solid #2a2623;
+padding: 10px;
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+    text-align: center;}
+#naviigo2 a {display:inline-block;
+  color:#fff !important;
+      margin-right: 15px;
+    margin-left: 15px;
+}
+#naviigo2 a:hover {transition:1s;
+animation: bounce 0.35s ease infinite alternate;}
+@keyframes bounce{
+     from {transform: translateY(0);}
+     to   {transform: translateY(-10px);}
+}
+  .blok1 {
+  display:block;
+  background-color:#151515;
+  width:200px;
+  height:300px;
+  padding:0px;
+  overflow:auto;
+}
+.img1 {
+  width:100%;
+}
+.img2 {
+  width:498px;
+  margin-top:-3px;
+}
+ft {
+  font-family:georgia;
+  font-style:italic;
+  margin-left:20px;
+  color:white;
+}
+.info {
+  display:block;
+  text-transform:uppercase;
+  font-family:roboto;
+  font-weight:bold;
+  text-align:center;
+  padding:5px;
+  background-color:#9B0500;
+  margin-bottom:2px;
+    color:white;
+  font-size:12px;
+}
+.blok2 {
+  display:block;
+  background-color:#151515;
+  width:280px;
+  height:278px;
+  overflow:auto;
+  padding:10px;
+  margin-left:-3px;
+  text-align:justify;
+  font-size:11px;
+  color:white;
+  font-family:roboto;
+}
+  .blok2 a {
+  color:#9B0500 !important;
+  }
+.blok3 {
+  display:block;
+  background-color:#151515;
+  width:480px;
+  height:300px;
+  overflow:auto;
+  padding:10px;
+  margin-left:;
+  text-align:justify;
+  font-size:11px;
+}
+.blok4 {
+  display:block;
+  background-color:#9B0500;
+  width:480px;
+  height:95px;
+  overflow:auto;
+  padding:10px;
+  text-align:justify;
+  font-size:11px;
+}
+.blok4 en {
+  font-family:Montserrat;
+  letter-spacing:-1px;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+.blok5 {
+  background-color:#9B0500;
+  display:block;
+  width:480px;
+  height:25px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:25px;
+  padding-bottom:20px;
+  font-family:Montserrat;
+  font-size:25px;
+  text-transform:uppercase;
+  color:#fff;
+}
+.blok6 {
+  display:block;
+  background-color:#151515;
+  width:480px;
+  padding:10px;
+  text-align:justify;
+  font-size:11px;
+}
+.blok7 {
+  background-color:#202020;
+  display:block;
+  width:285px;
+  height:80px;
+  overflow:auto;
+  padding:5px;
+  font-size:11px;
+  text-align:justify;
+  color:#fff;
+}
+.blok8 {
+  background-color:#9B0500;
+  display:block;
+  width:480px;
+  height:120px;
+  padding:10px;
+  font-family:Montserrat;
+  font-size:25px;
+  text-transform:uppercase;
+  color:white;
+}
+
+
+.icon_pnj {
+  height:100px;
+  width:100px;
+  border-radius:100px;
+  border:5px solid #020305;
+}
+tf {
+  font-family:georgia;
+  font-style:italic;
+  margin-left:30px;
+  font-size:14px;
+}
+.img_link {
+  height:90px;
+  width:180px;
+}
+/***********LIENS********/
+a.mainmenu img {
+display:none;
+}
+
+a {
+}
+
+a:hover{
+text-decoration: none !important;
+}
+ 
+a {
+text-decoration: none !important;
+}
+ 
+a:link {
+text-decoration: none;
+}
+ 
+a:visited {
+text-decoration: none;
+}
+</style>
+
+    <center><table><tr><td class="blok1"><img src="https://media1.tenor.com/images/28f521efbfabd54c11b4d8c5440e4102/tenor.gif?itemid=5940234" class="img1"><ft>death is outside</ft><div class="info">RPG</div><div class="info">AVATARS NON RÉELS</div><div class="info">200*320</div><div class="info">Déconseillé aux - 16 ans</div><div class="info">Pas de limite de mots</div><div class="info">SURVIE / HORREUR</div><div class="info">Système de Quêtes</div><div class="info">27/09/2019</div></td>
+      <td><div class="blok2"><ft>contexte général</ft><br/>
+ Une simple morsure, un mélange de fluide même, permet au virus, particulièrement violent de se propager dans le corps. Il provoque alors de la fièvre, puis des accès de violence. Finalement, après environ quatre heures seulement, le malade devient incontrôlable, avide de chair et de sang, il ne reconnait plus personne et attaque sans distinction aucune.
+    <br/><br/>
+La progression rapide du virus met un frein à la science. Les survivants se retranchent dans des camps de fortune, bâtissent des refuges qui finalement deviennent des villes. C'est près de la zone 51, dans le Nevada que le plus impressionnant d'entre eux voit le jour. « HopeCity » s'étale en 2018 sur environ 20 km², le tout partagé en districts et barricadé de hauts murs de protection. En son sein, une vie, ou plutôt une survie qui semble avoir retrouvé une pseudo normalité … jusqu'en décembre, durant les festivités de fin d'année, lorsqu'une infection se déclare au cœur même de la ville. Le cauchemar recommence, plus de la moitié de la ville succombe et seul le premier district qui parvient à fermer ses portes à temps reste debout.
+    <br/><br/>
+Le compteur de survivant, aux alentours, est désormais sous la barre des 500.
+    <br/><br/>
+    Et vous. Parviendrez-vous à rester en vie ? <a href="http://death-is-outside.forumactif.com/t5-contexte" target="_blank">Lire le contexte entier ?</a></div></td></tr></table><img src="https://4.bp.blogspot.com/-rxFhd0ihVZQ/WEsoKc8iWuI/AAAAAAAAKJU/4qvYgiY19Js4zsKanjUVD51HDbEm81wWwCLcB/s1600/15a4d5621c49f8c54774b839154d3bb63ff320ae_hq.gif" class="img2"><div id="naviigo2"><a href="http://death-is-outside.forumactif.com/t4-reglement-du-forum" target="_blank"><em class="sf sf-book-o" title="Règlement"></em></a>
+<a href="http://death-is-outside.forumactif.com/t5-contexte" target="_blank"><em class="sf-chat-o" title="Contexte"></em></a>
+   <a href="http://death-is-outside.forumactif.com/t6-groupes" target="_blank"><em class="sf-group-1-o" title="Groupes"></em></a>
+   <a href="http://death-is-outside.forumactif.com/t7-credits-du-forum" target="_blank"><em class="sf-eye-o" title="Crédits"></em></a>
+   <a href="http://death-is-outside.forumactif.com/t30-faq" target="_blank"><em class="sf-navigation-o" title="FAQ"></em></a>
+   <a href="http://death-is-outside.forumactif.com/f3-annexes" target="_blank"><em class="sf-plus-2-o" title="Annexes"></em></a>
+   <a href="http://death-is-outside.forumactif.com/f17-moderation" target="_blank"><em class="sf-save-o" title="Listings"></em></a>
+   <a href="http://death-is-outside.forumactif.com/f5-invites" target="_blank"><em class="sf-question-mark" title="Invités"></em></a>
+   <a href="http://death-is-outside.forumactif.com/f8-partenariats" target="_blank"><em class="sf-wine" title="Partenariats"></em></a></div></center>
