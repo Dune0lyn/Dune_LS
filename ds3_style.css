@@ -1,0 +1,34 @@
+<link href="https://fonts.googleapis.com/css?family=Marck+Script|Nanum+Gothic+Coding|Poiret+One&display=swap" rel="stylesheet">
+
+.ds3_left_gif{
+display:inline-block;
+vertical-align:top;
+width:115px;
+height:115px; 
+background-size: cover;
+clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.ds3_content{
+display:inline-block;
+vertical-align:top;
+width:200px;
+text-align:center;
+padding-top:10px;
+}
+
+.ds3_quote{
+font-family: 'Marck Script', cursive; font-size:25px;line-height: 12px;
+}
+
+.ds3_subquote{
+font-family: 'Poiret One', cursive; font-size:18px;line-height: 12px;display:block;text-align:right
+}
+
+.ds3_infos{
+font-family: 'Nanum Gothic Coding', monospace; font-size:15px;line-height: 12px;
+}
+
+.ds3_credit{
+font-family: 'Poiret One', cursive; font-size:12px;text-align:center;
+}
