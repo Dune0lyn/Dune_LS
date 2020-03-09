@@ -7,6 +7,10 @@ background-size: cover;
 clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
 }
 
+.ds3_right_gif{
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%) !important;
+}
+
 .ds3_content{
 display:inline-block;
 vertical-align:top;
