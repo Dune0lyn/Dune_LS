@@ -3,7 +3,7 @@
 .pan_main img{width:100%;height:auto;}
 
 .filterKDA {text-align:center;width:100%;height:auto;position: relative;overflow:hidden;} 
-.pan_main .filterKDA:after{opacity:0;transition:opacity 0.5s ease-in;} 
+.pan_main .filterKDA:after{opacity:0;transition:all 1s ease-in;} 
 .pan_main:hover .filterKDA:after{position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;background: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);mix-blend-mode: hard-light;opacity:0.8;z-index:10;}
 
 .pan_main .border{border:5px solid;border-image: linear-gradient(40deg, #8B4D7E,#332446, #E4CAC2);border-image-slice: 1; padding: 10px;margin: auto;transition:all 0.5s ease-in}
