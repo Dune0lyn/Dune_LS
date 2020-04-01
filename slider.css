@@ -2,8 +2,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 30px;
-  height: 15px;
+  width: 60px;
+  height: 34px;
 }
 
 /* Hide default HTML checkbox */
