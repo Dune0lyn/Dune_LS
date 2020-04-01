@@ -1,0 +1,25 @@
+.pan_main{background-color:#f4e9e5;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:#615057;font-family: 'Raleway', sans-serif;transition:all 0.5s ease-in}
+
+.pan_main img{width:100%;height:auto;}
+
+.filterKDA {text-align:center;width:100%;height:auto;position: relative;overflow:hidden;} 
+.pan_main .filterKDA:after{opacity:0;transition:opacity 0.5s ease-in;} 
+.pan_main:hover .filterKDA:after{position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;background: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);mix-blend-mode: screen;opacity:0.5;z-index:10;}
+
+.pan_main .border{border:5px solid;border-image: linear-gradient(40deg, #8B4D7E,#332446, #E4CAC2);border-image-slice: 1; padding: 10px;margin: auto;transition:all 0.5s ease-in}
+
+titlerp{display:block;text-align:center;font-family: 'Stardos Stencil', cursive;font-size:30px;line-height:18px;transition:all 1s ease-in}
+
+quoterp{display:block;width:90%;margin:auto;font-family: 'Raleway', sans-serif;font-style:italic;font-size:10px;line-height:10px;transition:all 1s ease-in}
+rp{display:block;}
+
+/*
+KDA VERSION
+*/
+.pan_main:hover{background-color:#16083B;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:#faf9f9;font-family: 'Raleway', sans-serif;}
+
+.pan_main:hover .border{border:5px solid;border-image: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);border-image-slice: 1; padding: 10px;margin: auto;box-shadow:0px 0px 5px #ACF8F8}
+
+.pan_main:hover titlerp{color:#6CB2DA; text-shadow:0px 0px 15px #ACF8F8;}
+
+.pan_main:hover quoterp{color:#F3C7F5; text-shadow:0px 0px 5px #F659F8;}
