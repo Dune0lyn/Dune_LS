@@ -1,7 +1,7 @@
 .IB_main{width:550px;margin:auto;background-color:#f8f8f8;}
-.IB_main .IB_header{width:100%;height:280px;padding-top:20px;background-image:URL('https://zupimages.net/up/20/14/xv4g.png');background-size:cover;position:relative;}
+.IB_main .IB_header{width:100%;height:280px;padding-top:20px;/*background-image:URL('https://zupimages.net/up/20/14/xv4g.png');*/background-size:cover;position:relative;}
 .IB_main .IB_header:after{position: absolute;content: '';display: block;top: 0;left: 0;height: 100%;width: 100%;background: linear-gradient(40deg, #290a59, #ff7c00, #290a59);mix-blend-mode: lighten;opacity: 0.6;z-index: 10;}
-.IB_main .IB_border{width:80%;height:220px;border: 10px solid;border-image: URL('https://zupimages.net/up/20/14/xv4g.png');border-image-slice: 50;padding: 10px;margin:auto;transform:scaleY(-1);z-index:50;position:relative;color:#ffffff}
+.IB_main .IB_border{width:80%;height:220px;border: 10px solid;/*border-image: URL('https://zupimages.net/up/20/14/xv4g.png');*/border-image-slice: 50;padding: 10px;margin:auto;transform:scaleY(-1);z-index:50;position:relative;color:#ffffff}
 .IB_main .IB_border titleIB, .IB_main .IB_border subIB, .IB_main .IB_border ftIB{display:block;width:100%;text-align:center;transform:scaleY(-1);}
 .IB_main .IB_border titleIB{font-family: 'Liu Jian Mao Cao', cursive;font-size:35px;font-weight:100;text-shadow:1px 1px 0px #ff7c00;position:absolute;top:50%;left:0px;}
 .IB_main .IB_border subIB{font-family: 'Bellota', cursive;font-size:15px;letter-spacing:2px;text-shadow:1px 1px 0px #000000;position:absolute;top:35%;left:0px}
