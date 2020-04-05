@@ -1,177 +1,78 @@
-h2, h3 {font-family: 'Roboto', sans-serif; font-weight:bold;}
-*{
-  box-sizing: border-box
+//Text Styles 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+$font-sans: 'Open Sans', sans-serif;
+
+//Colors
+$black: #34435E;
+$white: #ffffff;
+
+body {
+  font-family: $font-sans;
+  margin: 0;
+  padding: 0 4em;
 }
 
-/*==================================
-    TIMELINE
-==================================*/
-	/*-- GENERAL STYLES
-	------------------------------*/
-.timeline {
-	font-family: 'Roboto', sans-serif;
-	line-height: 1.4em;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-.timeline h3 {
-	color:#595959;
-	font-size:1.15em;
-	line-height: 1.1;
-}
-	/*----- TIMELINE ITEM -----*/
-.timeline-item {
-	padding-left: 40px;
-	position: relative;
-}
-.timeline-item:last-child {
-	padding-bottom: 0;
-}
-	/*----- TIMELINE INFO -----*/
-.timeline-info {
-	color:#000;
-	font-size: 12px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	margin: 0 0 3px 0;
-	text-transform: uppercase;
-	/*white-space: nowrap;*/
-}
-	/*----- TIMELINE MARKER -----*/
-.timeline-marker {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	width: 15px;
-}
-.timeline-marker:before {
-	background: #317f8f;
-	border: 3px solid transparent;
-	border-radius: 100%;
-	content: "";
-	display: block;
-	height: 9px;
-	position: absolute;
-	top: 3px;
-	left: 0;
-	width: 9px;
-	transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
-}
-.timeline-marker:after {
-	content: "";
-	width: 3px;
-	background: #CCD5DB;
-	display: block;
-	position: absolute;
-	top: 22px;
-	bottom: 0;
-	left: 6px;
-}
-.timeline-item:last-child .timeline-marker:after {
-	content: none;
-}
-.timeline-item:not(.period):hover .timeline-marker:before {
-	background: transparent;
-	border: 3px solid #317f8f;
-}
-	/*----- TIMELINE CONTENT -----*/
-.timeline-content {
-	padding-bottom: 40px;
-}
-.timeline-content p:last-child {
-	margin-bottom: 0;
+main {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
 }
 
-	/*----- TIMELINE PERIOD -----*/
-.period {
-	padding: 0;
+p {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: $black;
+  
+  //numbers
+  &:before {
+    content: counter(section);
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 1.25em;
+    width: 1.25em;
+    background-color: $black;
+    text-align: center;
+    line-height: 1.25em;
+    color: $white;
+    font-size: 1em;
+  }
 }
-.period .timeline-info {
-	display: none;
+//odd number borders
+p:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+  
+  &:before {
+    left: 100%; 
+    margin-left: -20px;
+  }
 }
-.period .timeline-marker:before {
-	background: transparent;
-	content: "";
-	width: 15px;
-	height: auto;
-	border: none;
-	border-radius: 0;
-	top: 0;
-	bottom: 30px;
-	position: absolute;
-	border-top: 3px solid #CCD5DB;
-	border-bottom: 3px solid #CCD5DB;
+//even number borders
+p:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+  
+  &:before {
+    right: 100%; 
+    margin-right: -20px;
+  }
 }
-.period .timeline-marker:after {
-	content: "";
-	height: 32px;
-	top: auto;
+//handle first and last
+p:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
 }
-.period .timeline-content {
-	padding: 40px 0 70px;
+p:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
 }
-.period .timeline-title {
-	margin: 0;
-}
-
-	/*----------------------------------------------
-		MOD: TIMELINE SPLIT
-	----------------------------------------------*/
-@media (min-width: 768px) {
-	.timeline-split .timeline, .timeline-centered .timeline {
-		display: table;
-	}
-	.timeline-split .timeline-item, .timeline-centered .timeline-item {
-		display: table-row;
-		padding: 0;
-	}
-	.timeline-split .timeline-info, .timeline-centered .timeline-info,
-	.timeline-split .timeline-marker,
-	.timeline-centered .timeline-marker,
-	.timeline-split .timeline-content,
-	.timeline-centered .timeline-content,
-	.timeline-split .period .timeline-info,
-	.timeline-centered .period .timeline-info {
-		display: table-cell;
-		vertical-align: top;
-	}
-	.timeline-split .timeline-marker, .timeline-centered .timeline-marker {
-		position: relative;
-	}
-	.timeline-split .timeline-content, .timeline-centered .timeline-content {
-		padding-left: 30px;
-	}
-	.timeline-split .timeline-info, .timeline-centered .timeline-info {
-		padding-right: 30px;
-	}
-	.timeline-split .period .timeline-title, .timeline-centered .period .timeline-title {
-		position: relative;
-		left: -45px;
-	}
-	.timeline-content.tlTitles {
-		padding: 0 0 0 30px;
-	}
-	.timeline h3 {
-		line-height:1.4;
-	}
-}
-	/*----------------------------------------------
-		MOD: MARKER OUTLINE
-	----------------------------------------------*/
-.marker-outline .timeline-marker:before {
-	background: transparent;
-	border-color: #FF6B6B;
-}
-.marker-outline .timeline-item:hover .timeline-marker:before {
-	background: #FF6B6B;
-}
-.timeline-content.tlTitles {
-	padding-bottom: 0;
-}
-.timeline-content.tlTitles .timeline-title {
-	padding-bottom:4px;
-	margin-bottom:5px;
-border-bottom: 0px solid #CCD5DB;}
