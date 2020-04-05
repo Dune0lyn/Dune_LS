@@ -16,13 +16,12 @@ main {
 
 p {
   font-size: 1em;
-  line-height: 1.75em;
   border-top: 3px solid;
   border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
   border-image-slice: 1;
   border-width: 3px;
   margin: 0;
-  padding: 40px;
+  padding: 20px 40px;
   counter-increment: section;
   position: relative;
   color: #34435E;
