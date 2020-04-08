@@ -7,30 +7,30 @@
 
 .btn--corners {
   position: relative;
-  border: 10px solid #7b1f1c;
+  border: 5px solid #7b1f1c;
 }
 
 .btn--corners::before,
 .btn--corners::after {
   content: "";
   position: absolute;
-  background-color: #343642;
-  z-index: 0;
+  background-color: #1C1918;
+  z-index: -1;
   transition: 200ms ease-in;
   transform-origin: center center;
 }
 
 .btn--corners::before {
-  width: calc(100% + 2px * 2 - 10px);
-  height: calc(100% + 2px * 2);
+  width: 110%;
+  height: 90%;
   top: -2px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .btn--corners::after {
-  height: calc(100% + 2px * 2 - 10px);
-  width: calc(100% + 2px * 2);
+  height: 110%;
+  width: 90%;
   left: -2px;
   top: 50%;
   transform: translateY(-50%);
