@@ -1,5 +1,5 @@
 $bg-color: #343642;
-$accent-color: #962d3e;
+$accent-color: #7b1f1c;
 
 @mixin v-h-center {
   position: absolute;
@@ -8,13 +8,13 @@ $accent-color: #962d3e;
   transform: translateX(-50%) translateY(-50%);
 }
 
-body {
-  background-color: $bg-color;
+/*body {
+  background-color: #343642;
   font-family: Lato;
   font-weight: 700;
-}
+}*/
 
-.o-title--primary {
+/*.o-title--primary {
   font-size: 3em;
   font-family: Lora;
   font-weight: 400;
@@ -22,14 +22,14 @@ body {
   color: #979c9c;
   @include v-h-center;
   margin-top: -1.5em;
-}
+}*/
 
-.c-links {
+/*.c-links {
   margin: 0;
   padding: 0;
   text-align: center;
   @include v-h-center;
-}
+}*/
 
 $border-width: 2px;
 $padding-width: 2px;
@@ -39,12 +39,12 @@ $corner-size: 10px;
   position: relative;
   display: inline-block;
   margin: 0;
-  padding: $padding-width;
+  padding: 2px;
   font-size: 18px;
   text-align: center;
   vertical-align: top;
   font-weight: 400;
-  border: $border-width solid $accent-color;
+  border: 2px solid #7b1f1c;
 }
 
 .btn--corners:not(:last-child) {
@@ -55,7 +55,7 @@ $corner-size: 10px;
 .btn--corners::after {
   content: "";
   position: absolute;
-  background-color: $bg-color;
+  background-color: #343642;
   z-index: 0;
   transition: 200ms ease-in;
   transform-origin: center center;
@@ -70,7 +70,7 @@ $corner-size: 10px;
 .btn--corners::before {
   width: calc(100% + #{$border-width} * 2 - #{$corner-size});
   height: calc(100% + #{$border-width} * 2);
-  top: -$border-width;
+  top: -2px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -78,7 +78,7 @@ $corner-size: 10px;
 .btn--corners::after {
   height: calc(100% + #{$border-width} * 2 - #{$corner-size});
   width: calc(100% + #{$border-width} * 2);
-  left: -$border-width;
+  left: -2px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -112,7 +112,7 @@ $corner-size: 10px;
 }
 
 .btn--primary {
-  background: $accent-color;
+  background: #7b1f1c;
   color: #979c9c;
   padding: 10px 40px;
   text-decoration: none;
