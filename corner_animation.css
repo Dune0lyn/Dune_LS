@@ -1,0 +1,121 @@
+$bg-color: #343642;
+$accent-color: #962d3e;
+
+@mixin v-h-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body {
+  background-color: $bg-color;
+  font-family: Lato;
+  font-weight: 700;
+}
+
+.o-title--primary {
+  font-size: 3em;
+  font-family: Lora;
+  font-weight: 400;
+  text-align: center;
+  color: #979c9c;
+  @include v-h-center;
+  margin-top: -1.5em;
+}
+
+.c-links {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  @include v-h-center;
+}
+
+$border-width: 2px;
+$padding-width: 2px;
+$corner-size: 10px;
+
+.btn--corners {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: $padding-width;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: top;
+  font-weight: 400;
+  border: $border-width solid $accent-color;
+}
+
+.btn--corners:not(:last-child) {
+  margin-right: 2px;
+}
+
+.btn--corners::before,
+.btn--corners::after {
+  content: "";
+  position: absolute;
+  background-color: $bg-color;
+  z-index: 0;
+  transition: 200ms ease-in;
+  transform-origin: center center;
+}
+
+.c-links:target .btn--corners::before,
+.c-links:target .btn--corners::after {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition-duration: 600ms;
+}
+
+.btn--corners::before {
+  width: calc(100% + #{$border-width} * 2 - #{$corner-size});
+  height: calc(100% + #{$border-width} * 2);
+  top: -$border-width;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn--corners::after {
+  height: calc(100% + #{$border-width} * 2 - #{$corner-size});
+  width: calc(100% + #{$border-width} * 2);
+  left: -$border-width;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn--corners:hover::before {
+  width: 0;
+}
+
+.btn--corners:hover::after {
+  height: 0;
+}
+
+.btn--corners a {
+  position: relative;
+  display: inline-block;
+  color: #979c9c;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1em;
+  font-size: 0.7em;
+  padding: 5px 20px;
+  margin: 0 2px;
+  z-index: 1;
+}
+
+.btn--corners a::after {
+  content: attr(data-number);
+  display: block;
+  font-family: Lora;
+  font-style: italic;
+}
+
+.btn--primary {
+  background: $accent-color;
+  color: #979c9c;
+  padding: 10px 40px;
+  text-decoration: none;
+  @include v-h-center;
+  margin-top: 6em;
+}
