@@ -68,16 +68,16 @@ $corner-size: 10px;
 }
 
 .btn--corners::before {
-  width: calc(100% + #{$border-width} * 2 - #{$corner-size});
-  height: calc(100% + #{$border-width} * 2);
+  width: calc(100% + 2 * 2 - 10);
+  height: calc(100% + 2 * 2);
   top: -2px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .btn--corners::after {
-  height: calc(100% + #{$border-width} * 2 - #{$corner-size});
-  width: calc(100% + #{$border-width} * 2);
+  height: calc(100% + 2 * 2 - 10);
+  width: calc(100% + 2 * 2);
   left: -2px;
   top: 50%;
   transform: translateY(-50%);
