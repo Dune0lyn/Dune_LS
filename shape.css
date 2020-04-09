@@ -15,14 +15,14 @@
 
 /* NICE AND PRETTY LIST ul+li*/
 /* List */
-ul {
+ul.pretty {
   counter-reset: index;  
   padding: 0;
   max-width: 300px;
 }
 
 /* List element */
-li {
+.pretty li {
   counter-increment: index; 
   display: -webkit-box; 
   display: flex;
@@ -34,7 +34,7 @@ li {
 
 
 /* Element counter */
-li::before {
+.pretty li::before {
   content: counters(index, ".", decimal-leading-zero);
   font-size: 1.5rem;
   text-align: right;
@@ -53,7 +53,7 @@ li::before {
 
 
 /* Element separation */
-li + li {
+.pretty li + li {
   border-top: 1px solid rgba(255,255,255,0.2);
 }
 
