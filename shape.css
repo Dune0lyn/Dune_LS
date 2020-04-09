@@ -6,7 +6,7 @@
 /*.headerbar{
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
-}*.
+}*/
 
 .headerbar .PA_header{
   -webkit-clip-path: polygon(0 70%, 0% 100%, 100% 100%);
