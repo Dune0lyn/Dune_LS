@@ -1,0 +1,55 @@
+<link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Clicker+Script&family=Playfair+Display&display=swap" rel="stylesheet"><style>
+.fontSpp2{
+  width:300px;
+  height:100px;
+  overflow:hidden;
+  position:relative;
+  color:#fff;
+}
+
+.fontSpp2>div{
+  position:absolute;
+  left:10%;
+  display:block;
+  text-align:center;
+}
+
+.fontSpp2 .bg{
+  font-family: 'Playfair Display', serif;
+  font-size:90px;
+  line-height:90px;
+  letter-spacing:-5px;
+  font-weight:600;
+  background:linear-gradient(to left, #3685B5,#061826,#0471A6);
+  color:#ffff;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fontSpp2 .fg{
+  font-family: 'Lovers Quarrel', cursive;
+  font-size:60px;
+  font-weight:100;
+  top:30px;
+  left:22%;
+  /*color:rgba(199,234,228,0.9);*/
+  color:#94949E;
+  text-shadow: 1px 1px 0px #797A9E;
+  z-index:10;
+}
+.fontSpp2 .fg::before{
+  content:"";
+  width:300%;
+  height:20px;
+  background:#000;
+  display:block;
+  position:absolute;
+  top:27px;
+  left:-80%;
+  z-index:-1;
+}
+</style>
+<div class="fontSpp2">
+  <div class="bg">BLUE</div>
+  <div class="fg">Ashcroft</div>
+</div>
