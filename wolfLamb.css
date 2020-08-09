@@ -1,0 +1,64 @@
+
+  .sppGif{
+  position:relative;
+  margin:auto;
+}
+
+
+.sppGif .bgGif{
+  width:100%;
+  height:166px;
+  overflow:hidden;
+}
+.sppGif .bgGif img{
+  width:100%;
+  height:auto;
+  filter: blur(5px) brightness(0.5);
+}
+
+.sppGif .shadow{
+  position:absolute;
+  display:block;
+   width:200px;
+  height:160px;
+  top:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.sppGif .fgGif{
+  display:block;
+  width:200px;
+  height:160px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);  
+}
+
+.sppGif .fgGif img{
+  width:400px;
+  height:auto;
+  margin-left:-100px;
+}
+
+.sppGif .quote{
+  width:100%;
+  position:absolute;
+  bottom:-12px;
+  margin-left:5%;
+}
+
+.sppGif .quote>div:nth-child(1){
+  font-family: 'Inconsolata', monospace;
+}
+
+.sppGif .quote>div:nth-child(2){
+  font-family: 'Lato', sans-serif;
+  margin-left:50px;
+}
+
+.sppGif .credit{
+  color:grey;
+  font-size:9px;
+  position:absolute;
+  right:15px;
+  bottom:0px;
+}
