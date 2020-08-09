@@ -1,0 +1,69 @@
+.signDesat{
+  position:relative;
+}
+
+.signDesat::before{
+  content:"";
+  display:block;
+  width:40px;
+  height:40px;
+  position:absolute;
+  top:-5px;
+  right:-5px;
+  z-index:100;
+}
+
+
+.signDesat .img{position:relative;}
+.signDesat .img img{
+  width:100%;
+  height:auto;
+  filter:grayscale(0.5);
+}
+
+.signDesat .img::before{
+  content:"";
+  display:block;
+  width:20%;
+  height:20%;
+  position:absolute;
+  bottom:-0px;
+  left:-3px;
+  z-index:100;
+}
+
+.signDesat .blockColor{
+  position:absolute;
+  bottom:10px;
+  left:20px;
+  display:block;
+  width:150px;
+  height:100px;
+  box-shadow: -5px 5px 10px #000;
+}
+
+.signDesat .blockColor .fa-crown{
+  color:#fff;
+  font-size:25px;
+  position:absolute;
+  bottom:55px;
+  left:40px;
+}
+.signDesat .blockColor .hl{
+  color:#fff;
+  text-transform:uppercase;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  bottom:30px;
+  left:10px;
+  font-size:20px;
+}
+
+.signDesat .blockColor .sub{
+  font-family: 'Merriweather', serif;
+  color:#fff;
+  font-size:10px;
+  position:absolute;
+  bottom:20px;
+  left:15px;
+}
