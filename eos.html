@@ -1,0 +1,82 @@
+<link href="https://fonts.googleapis.com/css2?family=Charm&family=Viaoda+Libre&family=Inconsolata:wght@300&family=Lato:ital@1&display=swap" rel="stylesheet">
+<style>
+  .sppGif{
+  width:400px;
+  position:relative;
+}
+
+
+.sppGif .bgGif{
+  width:100%;
+  height:166px;
+  overflow:hidden;
+}
+.sppGif .bgGif img{
+  width:100%;
+  height:auto;
+  filter: blur(5px) brightness(1.3);
+}
+
+.sppGif .shadow{
+  filter: drop-shadow(10px 10px 10px #000);
+  position:absolute;
+  display:block;
+   width:200px;
+  height:160px;
+  top:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.sppGif .fgGif{
+  display:block;
+  width:200px;
+  height:160px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);  
+}
+
+.sppGif .fgGif img{
+  width:400px;
+  height:auto;
+  margin-left:-100px;
+}
+
+.sppGif .quote{
+  width:100%;
+  position:absolute;
+  bottom:-18px;
+  margin-left:5%;
+}
+
+.sppGif .quote>div:nth-child(1){
+  font-family: 'Charm', cursive;
+  color:#2b140d;
+  text-shadow:1px 1px 0px #ded6d6;
+  letter-spacing:2px;
+  font-size:15px;
+}
+
+.sppGif .quote>div:nth-child(2){
+  font-family: 'Viaoda Libre', cursive;
+  margin-left:50px;
+  color:#784327;
+  letter-spacing:1px;
+  font-size:20px;
+}
+
+.sppGif .credit{
+  color:grey;
+  font-size:9px;
+  position:absolute;
+  right:15px;
+  bottom:0px;
+}
+</style>
+<div class="sppGif">
+  <div class="bgGif"><img src="https://64.media.tumblr.com/84814371436cc96b5558a572d5d2902d/tumblr_pens9kt11T1sby38z_500.gifv" /></div>
+  <div class="shadow"><div class="fgGif"><img src="https://64.media.tumblr.com/84814371436cc96b5558a572d5d2902d/tumblr_pens9kt11T1sby38z_500.gifv" /></div></div>
+  <div class="quote">
+    <div>L'amour, c'est le cri de l'aurore.</div><div>L'amour c'est l'hymne de la nuit.</div>
+  </div>
+  <div class="credit">© Dune</div>
+</div>
