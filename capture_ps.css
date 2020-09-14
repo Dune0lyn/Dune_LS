@@ -156,7 +156,7 @@
   z-index:-1;
 }
 
-.capture_PS .perso .capture>span img{
+.capture_PS .perso .myCapture>span img{
   display: inline-block;
   vertical-align: middle;
 }
