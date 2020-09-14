@@ -127,11 +127,11 @@
   color:#4478D9;
 }
 
-.capture_PS .perso .capture{
+.capture_PS .perso .myCapture{
   margin: 10px 0px;
 }
 
-.capture_PS .perso .capture>span{
+.capture_PS .perso .myCapture>span{
   display:inline-block;
   vertical-align:middle;
   position:relative;
@@ -142,7 +142,7 @@
   z-index:10;
 }  
 
-.capture_PS .perso .capture>span::before{
+.capture_PS .perso .myCapture>span::before{
   content:"";
   display:block;
   position:absolute;
