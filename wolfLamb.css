@@ -1,5 +1,5 @@
-
-  .sppGif{
+.sppGif{
+  width:400px;
   position:relative;
   margin:auto;
 }
@@ -17,9 +17,10 @@
 }
 
 .sppGif .shadow{
+  filter: drop-shadow(10px 10px 10px #000);
   position:absolute;
   display:block;
-   width:200px;
+  width:200px;
   height:160px;
   top:0;
   left:0;
@@ -30,7 +31,7 @@
   display:block;
   width:200px;
   height:160px;
-  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);  
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%); 
 }
 
 .sppGif .fgGif img{
@@ -48,11 +49,17 @@
 
 .sppGif .quote>div:nth-child(1){
   font-family: 'Inconsolata', monospace;
+  color:#8097fd;
+  letter-spacing:2px;
+  font-size:15px;
 }
 
 .sppGif .quote>div:nth-child(2){
   font-family: 'Lato', sans-serif;
   margin-left:50px;
+  color:#1144dd;
+  letter-spacing:1px;
+  font-size:20px;
 }
 
 .sppGif .credit{
