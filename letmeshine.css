@@ -1,4 +1,4 @@
-.signAdrian{width:328px;height:213px;position:relative;overflow:hidden;}
+.signAdrian{width:328px;height:213px;position:relative;overflow:hidden;margin:auto;}
   
   .signAdrian>div{position:absolute;top:10px;left:10px;width:308px;height:193px;background:rgba(255,255,255,0.5);text-align:center; transition: background 1s ease-out;}
   
