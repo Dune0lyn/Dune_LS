@@ -40,21 +40,21 @@
   margin-left:-100px;
 }
 
-.sppGif .quote{
+.sppGif .myquote{
   width:100%;
   position:absolute;
   bottom:-12px;
   margin-left:5%;
 }
 
-.sppGif .quote>div:nth-child(1){
+.sppGif .myquote>div:nth-child(1){
   font-family: 'Inconsolata', monospace;
   color:#8097fd;
   letter-spacing:2px;
   font-size:15px;
 }
 
-.sppGif .quote>div:nth-child(2){
+.sppGif .myquote>div:nth-child(2){
   font-family: 'Lato', sans-serif;
   margin-left:50px;
   color:#1144dd;
