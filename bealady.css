@@ -1,0 +1,80 @@
+.signColorLine{
+  width:500px;
+  height:150px;
+  background:#083F49;
+  filter:saturate(2);
+  position:relative;
+  overflow:hidden;
+}
+
+.signColorLine::before{
+  content:"";
+  display:block;
+  position:absolute;
+  top:7px;
+  left:25px;
+  background:#fff;
+  clip-path: polygon(45% 0, 100% 0, 100% 6%, 47% 6%, 25% 100%, 22% 100%, 0 100%, 0 95%, 22% 95%);
+  width:100%;
+  height:100%
+}
+
+.signColorLine .gif{
+  clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+  height:120px;
+  width:170px;
+}
+
+.signColorLine .gif img{
+  height:100%;
+  width:auto;
+}
+
+.signColorLine .gifShadow{
+  position:absolute;
+  top:0;
+  left:0;
+  display:block;
+  filter: drop-shadow(1px 1px 10px #000);
+}
+
+.signColorLine .content{
+  display:block;
+  clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+  height:120px;
+  width:300px;
+  background:#fff;
+  
+}
+
+.signColorLine .contentShadow{
+  position:absolute;
+  bottom:0;
+  right:0;
+  filter: drop-shadow(-1px -1px 10px #000);
+  color:#083F49;
+}
+
+.signColorLine .contentShadow .headline{
+  font-family: 'Viaoda Libre', cursive;
+  font-weight:bold;
+  font-size:25px;
+  text-align:right;
+  padding:5px 5px 0px 0px;
+}
+
+.signColorLine .contentShadow .txt{
+  font-size:11px;
+  color:#000;
+  text-align:justify;
+  width:80%;
+  margin:10px 5px 0px 18%;
+}
+
+.signColorLine .credit{
+  font-size:10px;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  color:#083F49
+}
