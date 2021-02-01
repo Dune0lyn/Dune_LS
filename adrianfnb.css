@@ -50,7 +50,7 @@
 .credit{
   color:grey;
   position:absolute;
-  bottom:0;
+  bottom:-5px;
   left:50px;
   font-size:9px;
   font-style:italic;
