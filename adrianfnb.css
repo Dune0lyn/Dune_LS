@@ -1,0 +1,57 @@
+.txtGif{
+  width:350px;
+  height:150px;
+  overflow:hidden;
+  position:relative;
+}
+
+.txtGif>div{
+  display:inline-block;
+  width:173px;
+  height:150px;
+  vertical-align:top;
+}
+
+.txtGif .img{
+  overflow:hidden;  
+}
+
+.txtGif .img img{
+  width:350px;
+  transform:translateX(-170px) translateY(2px);
+}
+
+.txtGif .txt{
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image:url('https://64.media.tumblr.com/f51205d44d84c7f1c7a8ad8621976471/tumblr_p35iqeeiN11v0t5cvo5_540.gifv');
+  background-repeat:no-repeat;
+  background-size: 370px;
+  background-position: top left;
+  filter:brightness(250%);
+}
+
+.txtGif .txt hd{
+  display:block;
+  font-family: 'Raleway', sans-serif;
+  font-style:italic;
+  font-weight:700;
+  font-size:14px;
+}
+
+.txtGif .txt quote{
+  display:block;
+  font-family: 'Big Shoulders Display', cursive;
+  text-align:justify;
+  font-size:12px;
+}
+
+.credit{
+  color:grey;
+  position:absolute;
+  bottom:0;
+  left:50px;
+  font-size:9px;
+  font-style:italic;
+}
