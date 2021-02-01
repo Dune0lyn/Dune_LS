@@ -1,0 +1,55 @@
+.losange{
+  width:400px;
+  height:150px;
+  position:relative;
+  background:black;
+  margin:auto;
+}
+
+.losange .imgs img{
+  width:150px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.losange .imgs div:nth-child(1)>img{
+  top:0;
+  right:0;
+}
+
+.losange .imgs div:nth-child(2)>img{
+  width:100px;
+  top:-10px;
+  left:-10px;  
+  transform:rotate(-45deg);
+}
+.losange .imgs div:nth-child(2){
+  background:black;
+  width:80px;
+  height:80px;
+  transform:rotate(45deg);
+  position:absolute;
+  top:80px;
+  right:70px;
+}
+
+.losange .txt{
+  color:white;
+  width:70%;
+  font-family: 'Inconsolata', monospace;
+  font-size:11px;
+  text-transform:uppercase;
+  padding-top:40px;
+  line-height:14px;
+}
+
+.credit{
+  color:grey;
+  position:absolute;
+  bottom:0;
+  left:50px;
+  font-size:9px;
+  font-style:italic;
+}
