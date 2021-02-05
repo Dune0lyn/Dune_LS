@@ -22,7 +22,7 @@
 
 .loscross .img::before, .loscross .img::after{
   content:"";
-  width:300px;
+  width:250px;
   height:3px;
   background:#000;
   position:absolute;
