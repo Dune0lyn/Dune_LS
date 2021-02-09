@@ -1,0 +1,82 @@
+.kadeau .credit{  position:absolute;
+  bottom:-10px;
+  right:50px;
+  margin:auto;
+  color:grey;
+  font-style:italic;
+  font-size:9px;
+}
+
+.kadeau{
+  width:430px;
+  margin:auto;
+  position:relative;
+  margin-bottom:10px;
+}
+
+.kadeau .img{position:relative;z-index:10}
+.kadeau .img::before,.kadeau .img::after{
+  content:"";
+  width:30px;
+  height:100%;
+  background: #350109;
+  position:absolute;
+  top:0;
+  left:-15px;
+  z-index:1;
+}
+
+.kadeau .img::after{
+  background:#080010;
+  top:0;
+  left:-25px;
+  box-shadow:1px 1px 10px #000;
+}
+
+.kadeau .img>span{
+  position:absolute;
+  display:block;
+  text-align:center;
+  color:#350109;
+  z-index:10;
+font-family: 'Poiret One', cursive;
+  font-weight:900;
+  top:20px;
+  left:-15px;
+  font-size:22px;
+  line-height:28px;
+  text-transform:uppercase;
+   text-shadow:inset 1px 1px 5px rgba(0,0,0,1);
+}
+
+.kadeau .txt{
+  position:absolute;
+  top:55px;
+  right:0;
+  width:40%;
+  color:white;
+  text-align:justify;
+}
+
+.kadeau .txt>*{display:block;}
+
+.kadeau .txt hd{
+  text-align:left;
+  width:50%;
+font-family: 'Poiret One', cursive;
+  font-weight:900;
+  color:#350109;
+  font-size:25px;
+  line-height:20px;
+  letter-spacing:3px;
+}
+
+.kadeau .txt sub{
+  font-size:10px;
+  line-height:11px;
+  margin-top:10px;
+  text-align:justify;
+  font-family: 'Xanh Mono', monospace;
+  padding:5px;
+  color:#8a8a92;
+}
