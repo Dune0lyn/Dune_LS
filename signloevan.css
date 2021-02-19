@@ -1,0 +1,73 @@
+.loevanhib .credit{  position:absolute;
+  bottom:-10px;
+  right:50px;
+  margin:auto;
+  color:grey;
+  font-style:italic;
+  font-size:9px;
+}
+
+.loevanhib{
+  width:400px;
+  margin:auto;
+  position:relative;
+  margin-bottom:10px;
+  z-index:10;
+}
+
+.loevanhib>.img{text-align:center;}
+.loevanhib>.img img{
+  width:60%;
+}
+
+.loevanhib>.txt *{ display:block;text-align:justify;color:white}
+
+.loevanhib .txt hd{
+   width:60%;
+  margin:-8px auto 0px auto;
+   font-family: 'PT Sans Narrow', sans-serif;
+  text-transform:uppercase;
+  font-size:15px;
+  text-shadow:1px 1px 0px #000;
+  color:#f6bdad;
+  background:linear-gradient(to right, #a5d2c6, #4aa58c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align:center;
+  letter-spacing:6px;
+}
+
+.loevanhib .txt sub{
+  font-size:10px;
+  line-height:11px;
+  text-align:justify;
+  font-family: 'Xanh Mono', monospace;
+  padding:5px; 
+  width:60%;
+  margin:auto;
+}
+
+.loevanhib .pf{
+  position:absolute;
+  top:0;
+  right:-10px;
+  color:black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform:uppercase;
+  
+  width:80px;
+  font-size:11px;
+  text-align:center;
+}
+
+.loevanhib .pf>div{
+  background:linear-gradient(to right, #a5d2c6, #4aa58c);
+  margin:7px 0px;
+  opacity:0.5;
+  cursor:pointer;
+  transition:all 0.5s ease-in;
+}
+
+.loevanhib .pf>div:hover{
+  opacity:1;
+}
