@@ -4,8 +4,8 @@
   margin: auto;
   padding:20px;
   position:relative;
-  border-image: linear-gradient(to left, #8B9D83, rgba(0,0,0,0), #8B9D83) 10;
-  border-bottom:2px solid red;
+  border-image: linear-gradient(to left, #8B9D83, rgba(0,0,0,0), rgba(0,0,0,0), #8B9D83) 10;
+  border-bottom:1px solid red;
 }
 
 .rpd>title, .rpd>mini{  display:inline-block; vertical-align:middle }
