@@ -43,7 +43,7 @@
   height:150px;
   position:absolute;
  border-image: linear-gradient(to top,#8B9D83, rgba(0,0,0,0)) 10;
-  border-left:2px solid red;
+  border-left:1px solid red;
 }
 .rpd::before{
   bottom:0;
