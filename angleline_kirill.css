@@ -29,7 +29,7 @@
   background:#adadad;
   border-top:5px solid #3f1915;
   transform:rotate(45deg);
-  box-shadow:1px 1px 10px #000;
+  /*box-shadow:1px 1px 10px #000;*/
   position:absolute;
   bottom:-5px;
   left:-55px;
@@ -65,7 +65,7 @@
   text-align:justify;
   font-family: 'Xanh Mono', monospace;
   padding:5px;
-  color:#bca59e;
+  color:#000;
 }
 
 .angleline .pal{
