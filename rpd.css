@@ -37,6 +37,12 @@
   font-family: 'PT Sans Narrow', sans-serif;
   font-style:italic;
 }
+.rpd rp sp{
+  display:inline;
+  color:#762129;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-style:italic;
+}
 
 .rpd::before, .rpd::after{
   content:"";
