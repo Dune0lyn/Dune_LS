@@ -85,12 +85,14 @@
   width:100%;
   font-size:9px;
   text-align:right;
-  background:#151413;
   color:#c8daf2
 }
 
-.rpdusk rp{
-  padding:0px 20px;
+.rpdusk rp{    
+  background: #151413;
+    padding: 10px 20px;
+    width: 90%;
+    margin: 0px auto 10px auto;
 }
 
 .rpdusk rp sp{
