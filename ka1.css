@@ -1,0 +1,109 @@
+.Ka1{
+  color:#fff;
+  text-align: justify;
+  background:#101010;
+  width: 500px;
+  min-height:400px;
+  margin: auto;
+  margin-top:20px;
+  position: relative;
+  font-size:13px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.4em;
+  z-index:10;
+}
+
+.Ka1::before{
+  content:"";
+  height:100%;
+  width:2px;
+  border-left:1px solid #4a84cc;
+  position:absolute;
+  top:0;
+  left:10px;
+}
+
+.Ka1>*{display:block;position:relative;}
+
+
+.Ka1 header{
+  padding-left:100px;
+}
+
+.Ka1 header>div{
+  font-family:'Xanh Mono', monospace;
+  font-size:70px;
+  line-height:70px;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#4a84cc;
+}
+
+.Ka1 header>span{
+  font-family:'Xanh Mono', monospace;
+  font-size:10px;
+  line-height:10px;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  color:#f7cea3;
+  display:block;
+  width:450px;
+  background:#101010;
+  position:absolute;
+  padding:5px 0px;
+  top:30px;
+  right:0;
+}
+.Ka1 header hr{
+  border-width:0px;
+  border-top:1px solid #4a84cc;
+  width: 450px;
+  transform:translateX(-75px);
+}
+
+.Ka1 header icon{
+  display:block;
+  width:100px;
+  height:100px;
+  transform:rotate(45deg);
+  position:absolute;
+  top:0;
+  left:-50px;
+  border:5px solid #101010;
+  overflow:hidden;
+}
+
+.Ka1 header icon img{
+  transform:rotate(-45deg) translate(30px,-30px);
+  width:150%;
+  box-sizing: content-box;
+}
+
+.Ka1 rp{
+  width:90%;
+  margin:30px auto;
+  padding-bottom:30px;
+}
+
+.Ka1 rp sp{
+  font-family:'Inconsolata', monospace;
+  color:#4a84cc;
+  font-style:italic;
+}
+
+.Ka1 note{
+  display:inline-block;
+  background: #4a84cc;
+  margin-left:10px;
+  padding:0px 10px;
+  position:absolute;
+  bottom:0px;
+  color:#101010;
+  font-family:'Inconsolata', monospace;
+  font-size:10px;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
