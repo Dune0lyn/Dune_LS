@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+Emtimeline, icon, date, desc{display:block;}
+
+
+Emtimeline{
+  border-left:5px solid #9999ff;
+  position:relative;
+  background:#ededef;
+  margin-left:5px;
+}
+
+Emtimeline .event{
+  display:block;
+  padding-left:15px;
+  position:relative;
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+Emtimeline .event icon{
+  background:#000;
+  width:15px;
+  height:15px;
+  border:3px solid #ededef;
+  position:absolute;
+  top:0;
+  left:-12px;
+  transition:0.5s ease-in;
+}
+
+Emtimeline .event:hover icon{
+  background:#9999ff;
+  transform:rotate(45deg);  
+}
+
+Emtimeline .event date{
+  display:inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size:12px;
+  background:#9999ff;
+  color:#000;
+  font-weight:bold;
+  padding:3px;
+  transition:0.5s ease-in;
+}
+
+Emtimeline .event:hover date{  
+  background:#000;
+  color:#9999ff;
+}
+
+Emtimeline .event titre{
+  display:inline-block;
+  vertical-align:middle;
+  margin-left:10px;
+  font-family: 'Open Sans', sans-serif;
+  color:#000;
+  font-size:15px;
+  font-weight:bold;
+  letter-spacing:2px;
+  transition:0.5s ease-in;
+}
+
+Emtimeline .event:hover titre{
+  color:#9999ff;
+  text-shadow:1px 1px 0px #000;
+}
+
+Emtimeline .event desc{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:12px;
+  text-align:justify;
+}
