@@ -24,7 +24,7 @@ transition:all 0.5s ease-in;}
 /*
 KDA VERSION
 */
-.pan_main{background-color:#16083B;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:lightgrey;}
+.pan_main{/*background-color:#16083B;*/width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:lightgrey;}
 
 .pan_main .border{border:5px solid;border-image: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);border-image-slice: 1; padding: 10px;margin: auto;box-shadow:0px 0px 5px #ACF8F8}
 
