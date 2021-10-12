@@ -16,11 +16,10 @@
 .pan_main rp sp{
   display:inline;
   font-family:'Inconsolata', monospace;
-  color:#332446;
+  color:#ACF8F8 !important;
   font-weight:bold;
 transition:all 0.5s ease-in;}
 
-.pan_main:hover sp{color:#ACF8F8 !important;}
 
 /*
 KDA VERSION
