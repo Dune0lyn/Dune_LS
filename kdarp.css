@@ -14,13 +14,14 @@
 .pan_main rp{display:block;}
 
 .pan_main rp sp{
+  display:inline;
   font-family:'Inconsolata', monospace;
   color:#332446;
   font-style:italic;
   font-weight:bold;
 transition:all 0.5s ease-in;}
 }
-.pan_main:hover rp sp{color:#ACF8F8;}
+.pan_main:hover rp sp{color:#ACF8F8 !important;}
 
 /*
 KDA VERSION
