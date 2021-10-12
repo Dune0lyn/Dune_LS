@@ -8,10 +8,16 @@
 
 .pan_main .border{border:5px solid;border-image: linear-gradient(40deg, #8B4D7E,#332446, #E4CAC2);border-image-slice: 1; padding: 10px;margin: auto;transition:all 0.5s ease-in}
 
-titlerp{display:block;text-align:center;font-family: 'Stardos Stencil', cursive;font-size:30px;line-height:18px;transition:all 1s ease-in}
+.pan_main titlerp{display:block;text-align:center;font-family: 'Stardos Stencil', cursive;font-size:30px;line-height:18px;transition:all 1s ease-in}
 
-quoterp{display:block;width:90%;margin:auto;font-family: 'Raleway', sans-serif;font-style:italic;font-size:10px;line-height:10px;transition:all 1s ease-in}
-rp{display:block;}
+.pan_main quoterp{display:block;width:90%;margin:auto;font-family: 'Raleway', sans-serif;font-style:italic;font-size:10px;line-height:10px;transition:all 1s ease-in}
+.pan_main rp{display:block;}
+
+.pan_main rp sp{
+  font-family:'Inconsolata', monospace;
+  color:#ACF8F8;
+  font-style:italic;
+}
 
 /*
 KDA VERSION
