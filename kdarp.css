@@ -1,12 +1,12 @@
-.pan_main{background-color:grey;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:black;transition:all 0.5s ease-in}
+/*.pan_main{background-color:grey;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:black;transition:all 0.5s ease-in}*/
 
-.pan_main img{width:100%;height:auto;}
+/*.pan_main img{width:100%;height:auto;}
 
 .filterKDA {text-align:center;width:100%;height:auto;position: relative;overflow:hidden;} 
 .pan_main .filterKDA:after{opacity:0;transition:all 1s ease-in;} 
-.pan_main:hover .filterKDA:after{position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;background: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);mix-blend-mode: hard-light;opacity:0.8;z-index:10;}
+.pan_main:hover .filterKDA:after{position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;background: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);mix-blend-mode: hard-light;opacity:0.8;z-index:10;}*/
 
-.pan_main .border{border:5px solid;border-image: linear-gradient(40deg, #8B4D7E,#332446, #E4CAC2);border-image-slice: 1; padding: 10px;margin: auto;transition:all 0.5s ease-in}
+/*.pan_main .border{border:5px solid;border-image: linear-gradient(40deg, #8B4D7E,#332446, #E4CAC2);border-image-slice: 1; padding: 10px;margin: auto;transition:all 0.5s ease-in}*/
 
 .pan_main titlerp{display:block;text-align:center;font-family: 'Stardos Stencil', cursive;font-size:30px;line-height:18px;transition:all 1s ease-in}
 
@@ -25,10 +25,10 @@ transition:all 0.5s ease-in;}
 /*
 KDA VERSION
 */
-.pan_main:hover{background-color:#16083B;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:#faf9f9;}
+.pan_main{background-color:#16083B;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:lightgrey;}
 
-.pan_main:hover .border{border:5px solid;border-image: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);border-image-slice: 1; padding: 10px;margin: auto;box-shadow:0px 0px 5px #ACF8F8}
+.pan_main .border{border:5px solid;border-image: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);border-image-slice: 1; padding: 10px;margin: auto;box-shadow:0px 0px 5px #ACF8F8}
 
-.pan_main:hover titlerp{color:#6CB2DA; text-shadow:0px 0px 15px #ACF8F8;}
+.pan_main titlerp{color:#6CB2DA; text-shadow:0px 0px 15px #ACF8F8;}
 
-.pan_main:hover quoterp{color:#F3C7F5; text-shadow:0px 0px 5px #F659F8;}
+.pan_main quoterp{color:#F3C7F5; text-shadow:0px 0px 5px #F659F8;}
