@@ -17,7 +17,6 @@
   display:inline;
   font-family:'Inconsolata', monospace;
   color:#332446;
-  font-style:italic;
   font-weight:bold;
 transition:all 0.5s ease-in;}
 
@@ -26,7 +25,7 @@ transition:all 0.5s ease-in;}
 /*
 KDA VERSION
 */
-.pan_main:hover{background-color:#16083B;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:#faf9f9;font-family: 'Raleway', sans-serif;}
+.pan_main:hover{background-color:#16083B;width:500px;margin:auto;padding:5px 25px 5px 25px;text-align:justify;color:#faf9f9;}
 
 .pan_main:hover .border{border:5px solid;border-image: linear-gradient(40deg, #F659F8, #2E2EBF, #ACF8F8);border-image-slice: 1; padding: 10px;margin: auto;box-shadow:0px 0px 5px #ACF8F8}
 
