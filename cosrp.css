@@ -1,0 +1,67 @@
+@font-face {font-family: "Alien League"; src: url("https://dune0lyn.github.io/Dune_LS/alienleagueexpand.ttf") format("truetype"); }
+
+.cosrp{
+  width:500px;
+  height:auto;
+  font-family:'Times New Roman', serif;
+  text-align:justify;
+}
+
+.cosrp title{
+  display:block;
+  font-family:"Alien League";
+  font-size:45px;
+  font-weight:bold;
+  padding-left:20px;
+  position:relative;
+}
+
+.cosrp title::after{
+  content:"";
+  width:50px;
+  height:50px;
+  background: #ba969b;
+  position:absolute;
+  bottom: -30px;
+  right:-25px;
+  mix-blend-mode:exclusion;
+  z-index:10;
+}
+
+.cosrp .img{
+  width:100%;
+  height:70px;
+  overflow:hidden;
+  filter: grayscale(60%);
+}
+.cosrp .img>img{
+  width:100%;
+}
+
+.cosrp rp{
+  display:block;
+  background:#c1c1c1;
+  width:453px;
+  padding:20px;
+  border-style:solid;
+  border-image: linear-gradient( to top, #742d37, rgba(0,0,0,0) ) 1 100%;
+}
+
+.cosrp rp sp{
+  display:inline;
+  color:#742d37;
+  font-family:'Xanh Mono', monospace;
+  font-weight:bold;
+}
+
+.cosrp rp subinf{
+  display:block;
+  border-bottom:2px solid grey;
+  font-family:"Alien League";
+  color:#742d37;
+  font-weight:bold;
+  margin-bottom:20px;
+  font-size:12px;
+  text-align:right;
+  font-style:italic;
+}
