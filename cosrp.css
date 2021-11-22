@@ -26,7 +26,7 @@
   position:absolute;
   bottom: -30px;
   right:-25px;
-  mix-blend-mode:exclusion;
+  mix-blend-mode:multiply;
   z-index:10;
 }
 
