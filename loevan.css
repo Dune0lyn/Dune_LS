@@ -17,6 +17,7 @@
   font-weight:bold;
   padding-left:20px;
   position:relative;
+  margin-bottom:8px;
 }
 
 .cosrp title::after{
