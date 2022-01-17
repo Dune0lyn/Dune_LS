@@ -10,7 +10,7 @@
   line-height: 1.4em;
   z-index:10;
   box-shadow: 0 2px 30px rgba(0,0,0, .2);
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
 }
 
 .rpicare .head{
