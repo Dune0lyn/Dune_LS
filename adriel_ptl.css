@@ -1,5 +1,5 @@
 .rpicare{
-  color: #000;
+  color: #fff;
   text-align: justify;
   width: 500px;
   min-height:400px;
@@ -25,7 +25,7 @@
   position: absolute;
   top: 3%;
   left: 50%;
-  background: #151413;
+  background: #91171F;
   width: 700px;
   height: 700px;
   margin-left: -350px;
@@ -42,7 +42,7 @@
 .rpicare .wave.-two {
   animation: drift 7000ms infinite linear;
   opacity: .5;
-  background: #8C3946;
+  background: #410B13;
 }
 .rpicare .title {
   position: absolute;
@@ -112,7 +112,7 @@
 
 .rpicare rp sp{
   font-family:'Inconsolata', monospace;
-  color:#8C3946;
+  color:#91171F;
   font-style:italic;
   font-weight:bold;
 }
