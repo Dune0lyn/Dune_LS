@@ -1,0 +1,60 @@
+.rpd{
+  text-align: justify;
+  width: 500px;
+  margin: auto;
+  padding:20px;
+  position:relative;
+  border-image: linear-gradient(to left, #5e2d28, rgba(0,0,0,0), rgba(0,0,0,0), #9d7461) 10;
+  border-bottom:1px solid red;
+}
+
+.rpd>title, .rpd>mini{  display:inline-block; vertical-align:middle }
+
+.rpd>title{
+  width:60%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform:uppercase;
+  font-size:15px;
+}
+.rpd>mini{
+  width:35%;
+  margin-left:4%;
+  font-family: 'Xanh Mono', monospace;
+  font-size:11px;
+}
+
+.rpd hr{
+  border-image: linear-gradient(to right, rgba(0,0,0,0), #8B9D83, rgba(0,0,0,0)) 10;
+}
+
+.rpd rp{
+  display:block;
+}
+
+.rpd rp spk{
+  display:inline;
+  color:#cc615e;
+  font-style:italic;
+}
+.rpd rp sp{
+  display:inline;
+  color:#cc615e;
+  font-style:italic;
+}
+
+.rpd::before, .rpd::after{
+  content:"";
+  width:150px;
+  height:150px;
+  position:absolute;
+ border-image: linear-gradient(to top,#8B9D83, rgba(0,0,0,0)) 10;
+  border-left:1px solid red;
+}
+.rpd::before{
+  bottom:0;
+  left:0;}
+
+.rpd::after{
+  right:-150px;
+  bottom:0; 
+}
