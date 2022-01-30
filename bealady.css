@@ -2,7 +2,8 @@
   width:500px;
   height:150px;
   background:#083F49;
-  filter:saturate(2);
+  filter:saturate(2); 
+  
   position:relative;
   overflow:hidden;
 }
