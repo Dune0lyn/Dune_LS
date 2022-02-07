@@ -43,12 +43,12 @@
   display:block;
   padding:20px;
   border-style:solid;
-  border-image: linear-gradient( to top, #742d37, rgba(0,0,0,0) ) 1 100%;
+  border-image: linear-gradient( to top, #643131, rgba(0,0,0,0) ) 1 100%;
 }
 
 .cosrp rp sp{
   display:inline;
-  color:#742d37;
+  color:#643131;
   font-family:'Xanh Mono', monospace;
   font-weight:bold;
 }
@@ -57,7 +57,7 @@
   display:block;
   border-bottom:2px solid grey;
   font-family:"Alien League";
-  color:#742d37;
+  color:#643131;
   font-weight:bold;
   margin-bottom:20px;
   font-size:12px;
