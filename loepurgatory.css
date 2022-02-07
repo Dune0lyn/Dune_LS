@@ -5,7 +5,6 @@
   height:auto;
   font-family:'Times New Roman', serif;
   text-align:justify;
-  background:#f4f4f4;
   margin:auto;
 }
 
@@ -42,8 +41,6 @@
 
 .cosrp rp{
   display:block;
-  background:#c1c1c1;
-  width:600px;
   padding:20px;
   border-style:solid;
   border-image: linear-gradient( to top, #742d37, rgba(0,0,0,0) ) 1 100%;
