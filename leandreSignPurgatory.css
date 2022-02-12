@@ -21,18 +21,24 @@
   vertical-align:top;
 }
 
-.angleline .img{position:relative;z-index:10;}
-.angleline .img::after{
+.angleline .img{
+  position:relative;
+  width:54%;
+  z-index:10;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 34% 100%, 0% 45%);
+overflow:hidden}
+
+.angleline::after{
   content:"";
-  width:150px;
-  height:50px;
-  background:transparent;
-  border-top:5px solid #3f1915;
-  transform:rotate(45deg);
+  width:140px;
+  height:5px;
+  background:#775499;
+  transform:rotate(46deg);
+  transform-origin:top left;
   box-shadow:-3px 3px 3px #adadad;
   position:absolute;
-  bottom:-5px;
-  left:-55px;
+  top:48px;
+  right:23%;
   z-index:10;
 }
 
@@ -55,7 +61,7 @@
    font-family: 'PT Sans Narrow', sans-serif;
   text-transform:uppercase;
   font-size:19px;
-  color:#3f1915
+  color:#775499;
 }
 
 .angleline .txt sub{
@@ -80,16 +86,19 @@
   width:20px;
   height:20px;
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  background:#3f1915;
+  background:#775499;
   margin:0px 5px
 }
 
 .angleline .pal span:nth-child(2){
-  background:#573931;
+  background:#775499;
+  opacity:0.7;
 }
 .angleline .pal span:nth-child(3){
-  background:#75564a;
+  background:#775499;
+  opacity:0.5;
 }
 .angleline .pal span:nth-child(4){
-  background:#b39d96;
+  background:#775499;
+  opacity:0.3;
 }
