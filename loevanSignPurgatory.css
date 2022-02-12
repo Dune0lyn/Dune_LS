@@ -1,0 +1,80 @@
+ .signRainbow {
+  width:400px;
+  height:150px;
+  position:relative;
+  margin:35px;
+  z-index:10;
+}
+
+.signRainbow .img{
+  width:55%;
+  height:90%;
+  background:red;
+  overflow:hidden;
+  margin:5% 0% 5% 45%;
+}
+
+.signRainbow .img img{
+  margin-top:-25px;
+  width:100%;
+  height:auto;
+}
+
+.signRainbow .rainbow{
+  position:absolute;
+  right:80px;
+  top:-30px;
+  z-index:100;
+  mix-blend-mode: soft-light;
+}
+
+.signRainbow .rainbow div{
+  margin:0 -2px;
+  display:inline-block;
+  width:35px;
+  height:200px;
+  background: linear-gradient(#000,#E5BEED,#E5BEED,#000);
+  filter: brightness(1.75);
+}
+
+.signRainbow .rainbow div:nth-child(2){
+  background: linear-gradient(#000,#9593D9,#9593D9,#000);
+}
+.signRainbow .rainbow div:nth-child(3){
+  background: linear-gradient(#000,#736B92,#736B92,#000);
+}
+
+.signRainbow .content{
+  position:absolute;
+  color:#fff;
+  display:block;
+  width:70%;
+  top:25px;
+}
+
+.signRainbow .content .headline{
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  font-style:italic;
+  letter-spacing:1px;
+  text-shadow:1px 1px 0px #736B92;
+}
+
+.signRainbow .content .txt{
+  font-family: 'Caladea', serif;
+  font-size:11px;
+  text-align:justify;
+  width:61%;
+  margin:10px 0px 0px 5px;
+  color:#9593D9
+}
+
+.signRainbow .credit{
+  color:#fff;
+  position:absolute;
+  left:5px;
+  bottom:0;
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  font-size:9px;
+}
