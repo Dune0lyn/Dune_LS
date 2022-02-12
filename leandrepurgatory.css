@@ -89,7 +89,7 @@
 
 .rpNorth header::before{
   content:"";
-  background:#211f1e;
+  background:#775499;
   width:100%;
   height:100%;
   position:absolute;
@@ -112,7 +112,7 @@
   position:absolute;
   bottom:-35px;
   right:20px;
-  color:#211f1e;
+  color:#775499;
 }
 
 .rpNorth rp::before{
@@ -122,7 +122,7 @@
   position:absolute;
   top:35px;
   left:0px;
-  color:#211f1e;
+  color:#775499;
 }
 
 .rpNorth rp sp{
