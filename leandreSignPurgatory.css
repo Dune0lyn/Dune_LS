@@ -1,0 +1,95 @@
+.angleline .credit{  
+  position:absolute;
+  bottom:-10px;
+  right:50px;
+  margin:auto;
+  color:grey;
+  font-style:italic;
+  font-size:9px;
+}
+
+.angleline{
+  width:400px;
+  margin:auto;
+  position:relative;
+  margin-bottom:10px
+}
+
+.angleline div{
+  display:inline-block;
+  width:45%;
+  vertical-align:top;
+}
+
+.angleline .img{position:relative;z-index:10;}
+.angleline .img::after{
+  content:"";
+  width:150px;
+  height:50px;
+  background:transparent;
+  border-top:5px solid #3f1915;
+  transform:rotate(45deg);
+  box-shadow:-3px 3px 3px #adadad;
+  position:absolute;
+  bottom:-5px;
+  left:-55px;
+  z-index:10;
+}
+
+.angleline .left{
+  position:relative;
+  z-index:100;
+  height:150px;
+}
+.angleline .txt{
+  color:white;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  right:-40px;
+}
+
+.angleline .txt>*{display:block;}
+
+.angleline .txt hd{
+   font-family: 'PT Sans Narrow', sans-serif;
+  text-transform:uppercase;
+  font-size:19px;
+  color:#3f1915
+}
+
+.angleline .txt sub{
+  font-size:11px;
+  line-height:12px;
+  margin-top:10px;
+  text-align:justify;
+  font-family: 'Xanh Mono', monospace;
+  padding:5px;
+}
+
+.angleline .pal{
+  position:absolute;
+  top:20px;
+  right:20px;
+  width:120px;
+  text-align:center;
+}
+
+.angleline .pal span{
+  display:inline-block;
+  width:20px;
+  height:20px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background:#3f1915;
+  margin:0px 5px
+}
+
+.angleline .pal span:nth-child(2){
+  background:#573931;
+}
+.angleline .pal span:nth-child(3){
+  background:#75564a;
+}
+.angleline .pal span:nth-child(4){
+  background:#b39d96;
+}
