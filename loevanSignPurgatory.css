@@ -2,7 +2,7 @@
   width:400px;
   height:150px;
   position:relative;
-  margin:35px;
+  margin:35px auto;
   z-index:10;
 }
 
