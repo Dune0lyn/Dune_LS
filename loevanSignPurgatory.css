@@ -32,15 +32,15 @@
   display:inline-block;
   width:35px;
   height:200px;
-  background: linear-gradient(#000,#e9b688,#e9b688,#000);
+  background: linear-gradient(rgba(0,0,0,0),#e9b688,#e9b688,rgba(0,0,0,0));
   filter: brightness(1.75);
 }
 
 .signRainbow .rainbow div:nth-child(2){
-  background: linear-gradient(#000,#8f5646,#8f5646,#000);
+  background: linear-gradient(rgba(0,0,0,0),#8f5646,#8f5646,rgba(0,0,0,0));
 }
 .signRainbow .rainbow div:nth-child(3){
-  background: linear-gradient(#000,#280f0a,#280f0a,#000);
+  background: linear-gradient(rgba(0,0,0,0),#280f0a,#280f0a,rgba(0,0,0,0));
 }
 
 .signRainbow .content{
