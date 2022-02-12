@@ -9,15 +9,14 @@
 .signRainbow .img{
   width:55%;
   height:90%;
-  background:red;
   overflow:hidden;
   margin:5% 0% 5% 45%;
 }
 
 .signRainbow .img img{
   margin-top:-25px;
-  width:100%;
-  height:auto;
+  height:100%;
+  width:auto;
 }
 
 .signRainbow .rainbow{
@@ -33,15 +32,15 @@
   display:inline-block;
   width:35px;
   height:200px;
-  background: linear-gradient(#000,#E5BEED,#E5BEED,#000);
+  background: linear-gradient(#000,#e9b688,#e9b688,#000);
   filter: brightness(1.75);
 }
 
 .signRainbow .rainbow div:nth-child(2){
-  background: linear-gradient(#000,#9593D9,#9593D9,#000);
+  background: linear-gradient(#000,#8f5646,#8f5646,#000);
 }
 .signRainbow .rainbow div:nth-child(3){
-  background: linear-gradient(#000,#736B92,#736B92,#000);
+  background: linear-gradient(#000,#280f0a,#280f0a,#000);
 }
 
 .signRainbow .content{
@@ -57,7 +56,7 @@
   text-transform: uppercase;
   font-style:italic;
   letter-spacing:1px;
-  text-shadow:1px 1px 0px #736B92;
+  text-shadow:1px 1px 0px #8f5646;
 }
 
 .signRainbow .content .txt{
@@ -66,7 +65,7 @@
   text-align:justify;
   width:61%;
   margin:10px 0px 0px 5px;
-  color:#9593D9
+  color:#8f5646
 }
 
 .signRainbow .credit{
