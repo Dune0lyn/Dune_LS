@@ -35,7 +35,7 @@ overflow:hidden}
   background:#775499;
   transform:rotate(46deg);
   transform-origin:top left;
-  box-shadow:-3px 3px 3px #adadad;
+  box-shadow:-3px 3px 10px #000;
   position:absolute;
   top:48px;
   right:23%;
