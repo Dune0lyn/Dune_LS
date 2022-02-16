@@ -32,7 +32,7 @@
   width:500px;
   margin:auto;
   position:relative;
-  background:var(--dark1);
+  background:linear-gradient(to bottom, var(--dark1), transparent);
 }
 
 .rpInaBL *{display:block;}
