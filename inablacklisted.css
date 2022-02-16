@@ -57,7 +57,7 @@
 .rpInaBL .header title{
   font-family: var(--ita);
   text-transform:lowercase;
-  font-size:25px;
+  font-size:28px;
   letter-spacing:3px;
   font-weight:100;
   text-align:center;
@@ -74,6 +74,7 @@
   padding:10px 20px;
   font-family: var(--poppins);
   font-style:italic;
+    font-size:12px;
 }
 
 .rpInaBL .quote{
@@ -102,3 +103,5 @@
   text-align:justify;
   margin-top:20px;
 }
+
+.rpInaBL rp sp{display:inline !important;}
