@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'PeachBrown';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://dune0lyn.github.io/Dune_LS/PeachBrown.woff') format('woff');
+    }
+@font-face{ font-family:"shutter"; src: url('https://dl.dropboxusercontent.com/s/l52ysbcirhvz2c4/shutter.ttf’)'); }
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --colo:#5d3130;
+  
+  --grey: #d3d3d3;
+
+  --dark1: #0f0f0f;
+  --dark2: #202020;
+  --dark3: #414141;
+  
+  --open:'Open Sans', sans-serif;
+  --xan:'Xanh Mono', monospace;
+  --inc:'Inconsolata', monospace;
+  --mont:'Montserrat', sans-serif;
+  --pt:'PT Sans Narrow', sans-serif;
+  --gia: 'Poppins', sans-serif;
+  --peach:'PeachBrown', cursive;
+  --shutter:'shutter', serif;
+  --ita:'Italiana', serif;
+}
+
+.rpInaBL{
+  display:block;
+  width:500px;
+  margin:auto;
+  position:relative;
+  background:var(--dark1);
+}
+
+.rpInaBL *{display:block;}
+
+.rpInaBL .header{
+  width:100%;
+  height:150px;
+  background :var(--colo);
+  overflow:hidden;
+  position:relative;
+}
+
+.rpInaBL .header>img{
+  width:100%;
+  height:auto;
+  position:absolute;
+  top:0;
+  left:0;
+  mix-blend-mode:overlay;
+}
+
+.rpInaBL .header title{
+  font-family: var(--ita);
+  text-transform:lowercase;
+  font-size:25px;
+  letter-spacing:3px;
+  font-weight:100;
+  text-align:center;
+  margin-top:10px;
+}
+
+.rpInaBL .header sub{
+  width:70%;
+  border:3px solid var(--dark1);
+  border-right:0px;
+  border-left:0px;
+  margin:auto;
+  margin-top:-4px;
+  padding:10px 20px;
+  font-family: var(--poppins);
+  font-style:italic;
+}
+
+.rpInaBL .quote{
+  font-size:35px;
+  color:var(--dark1);
+  width:70px;
+  height:70px;
+  border:5px solid var(--dark1);
+  text-align:center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background:var(--colo);
+  position:absolute;
+  top:110px;
+  left:0;
+  right:0;
+  margin:auto;
+  border-radius:50%;
+  text-shadow:1px 1px 15px var(--dark3)
+}
+
+.rpInaBL rp{
+  padding:20px;
+  text-align:justify;
+  margin-top:20px;
+}
