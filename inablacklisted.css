@@ -75,6 +75,7 @@
   font-family: var(--poppins);
   font-style:italic;
     font-size:12px;
+    line-height: 10px;
 }
 
 .rpInaBL .quote{
