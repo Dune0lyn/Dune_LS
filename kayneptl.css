@@ -59,7 +59,7 @@
    font-family: 'PT Sans Narrow', sans-serif;
   text-transform:uppercase;
   font-size:15px;
-  color:#433738
+  color:#722316
 }
 
 .loscross .txt sub{
@@ -79,7 +79,7 @@
 }
 .loscross .pal span{
   display:block;
-  background: #433738;
+  background: #722316;
   width:20px;
   height:20px;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -90,4 +90,4 @@
 .loscross .pal span:nth-child(2){ background:#a86a64}
 .loscross .pal span:nth-child(3){background:#c68452 }
 .loscross .pal span:nth-child(4){background:#a86a64 }
-.loscross .pal span:nth-child(5){background:#433738 }
+.loscross .pal span:nth-child(5){background:#722316 }
