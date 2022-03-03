@@ -1,0 +1,45 @@
+
+.psysign{
+  width:400px;
+  margin:auto;
+  position:relative;
+  z-index:10;
+}
+
+.psysign::before{
+  content:"";
+  width:100%;
+  height:150px;
+  border:2px solid #902a0c;
+  position:absolute;
+  top:10px;
+  left:20px;
+  z-index:-1
+}
+
+.psysign gif{}
+
+.psysign .txt{
+  display:block;
+  width:140px;
+  height:140px;
+  position:absolute;
+  top:20px;
+  right:-15px;
+}
+
+.psysign .txt hd{
+  display:block;
+  text-align:center;
+  font-family:'Xanh Mono', monospace;
+  letter-spacing:2px;
+  color:#5588aa
+}
+
+.psysign .txt sub{
+  display:block;
+  text-align:justify;
+  margin-top:10px;
+  font-style:italic;
+  color:#c89586
+}
