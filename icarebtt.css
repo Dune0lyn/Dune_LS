@@ -33,81 +33,66 @@
   --bg: #181717;
 }
 
-.kaynerp {
+.icarebtt {
   display: block;
-  width: 530px;
+  width: 450px;
+  padding:10px;
   margin: auto;
   position: relative;
-  background: var(--dark1);
 }
 
-.kaynerp>hd{
-  display:block;
-  width:100%;
-  height:150px;
-  overflow:hidden;
-  position:relative;
-  z-index:10;
-}
-
-.kaynerp>hd img{width:100%;filter:grayscale(1)}
-
-.kaynerp>hd::after{
-  content:"";
-  width:80%;
-  height:100%;
-  background: var(--colo);
-  position:absolute;
-  right:0;
-  top:0;
-  mix-blend-mode:multiply;
-  border-left:5px solid var(--dark1);
-  z-index:1;
-}
-
-.kaynerp>hd>div{
-  display:block;
-  width:80%;
-  font-family:var(--pt);
-  font-weight:bold;
-  letter-spacing:5px;
-  font-size:25px;
-  line-height:25px;
-  text-shadow:1px 1px 0px var(--dark1);
-  padding-top:50px;
-  text-align:center;
-  position:absolute;
-  top:0;
-  right:0;
-  z-index:10;
-}
-
-.kaynerp rp, .kaynerp .inf{
+.icarebtt .rond{
   display:inline-block;
-  vertical-align:top;
-  width:19%;
-  height:200px;
-  border:5px solid var(--dark1);
-  border-left-width:0px;
-}
-
-.kaynerp .inf{
-  background:var(--colo);
-  position:relative;
-}
-
-.kaynerp .inf>div{
-  width:200px;
+  vertical-align:middle;
+  width:100px;
   height:100px;
-  line-height:100px;
-  text-align:center;
-  position:absolute;
-  bottom:25%;
-  right:-50%;
-  transform:rotate(-90deg);
+  border-radius:50%;
+  padding:10px;
+  border:1px solid #7c1a1b;
 }
 
-.kaynerp rp{
+.icarebtt .rond>div{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  overflow:hidden;
+  border:1px solid #7c1a1b;
+}
+.icarebtt .rond>div>img{width:100%;}
+
+.icarebtt .ft{
+  display:inline-block;
+  width:300px;
+  text-align:right;
+  position:relative;
+  z-index:10;
+  transform:translatey(10px)
+}
+
+.icarebtt .ft::before{
+  content:"";
+  width:290px;
+  height:1px;
+  background:#7c1a1b;
+  position:absolute;
+  left:0px;
+  top:-5px;
+  z-index:-1;
+}
+
+.icarebtt .title{
+  width:280px;
+  font-family:var(--ita);
+  font-size:18px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  position:absolute;
+  top:45px;
+  left:150px;
+}
+
+.icarebtt rp{
+  display:block;
   width:75%;
   text-align:justify;
   padding-right: 10px;
@@ -116,15 +101,9 @@
   z-index:10;
 }
 
-.kaynerp rp sp{
+.icarebtt rp sp{
   display: inline;
-    color:var(--colo);
+    color:#7c1a1b;
     font-family: 'Xanh Mono', monospace;
     font-weight: bold;
-}
-
-.kaynerp rp::before{
-  content:"";
-  width:100px;
-  height:100%
 }
