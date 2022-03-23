@@ -30,7 +30,7 @@
   font-size:15px;
   text-shadow:1px 1px 0px #000;
   color:#314a5a;
-  background:linear-gradient(to right, #314a5, #080029);
+  background:linear-gradient(to right,#314a5a,#080029);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align:center;
@@ -43,8 +43,8 @@
   text-align:justify;
   font-family: 'Xanh Mono', monospace;
   padding:5px; 
-  width:100%;
-  margin:auto;
+  width:80%;
+  margin-left:20%;
 }
 
 .loevanhib .pf{
@@ -62,7 +62,7 @@
 
 .loevanhib .pf>div{
   color:#fff;
-  background:linear-gradient(to right, #314a5, #080029);
+  background:linear-gradient(to right,#314a5a,#080029);
   margin:7px 0px;
   opacity:0.5;
   cursor:pointer;
