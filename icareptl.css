@@ -16,7 +16,7 @@
   z-index:10;
 }
 
-.loevanhib>.img{text-align:center;}
+.loevanhib>.img{width:100%;text-align:center;}
 .loevanhib>.img img{
   width:60%;
 }
