@@ -46,7 +46,7 @@
 .eosrpptl::before{
   content:"";
   width:2px;
-  height: 85%;
+  height: 94%;
   background:var(--color);
   position:absolute;
   top:64px;
