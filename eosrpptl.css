@@ -117,7 +117,7 @@
 
 .eosrpptl rp sp{
   display: inline;
-    color:#7c1a1b;
+    color:var(--color);
     font-family: 'Xanh Mono', monospace;
     font-weight: bold;
 }
