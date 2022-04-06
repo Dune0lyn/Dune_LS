@@ -8,7 +8,7 @@
   font-family: "shutter";
   src: url("https://dl.dropboxusercontent.com/s/l52ysbcirhvz2c4/shutter.ttf’)");
 }
-:root {
+:root { 
   --white: #ffffff;
   --black: #000000;
   
