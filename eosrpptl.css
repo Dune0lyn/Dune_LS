@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "PeachBrown";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://dune0lyn.github.io/Dune_LS/PeachBrown.woff") format("woff");
+}
+@font-face {
+  font-family: "shutter";
+  src: url("https://dl.dropboxusercontent.com/s/l52ysbcirhvz2c4/shutter.ttf’)");
+}
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  
+  --dark1: #0f0f0f;
+    --dark2: #202020;
+    --dark3: #414141;
+  --color: #0e638b;
+
+  --open: "Open Sans", sans-serif;
+  --xan: "Xanh Mono", monospace;
+  --inc: "Inconsolata", monospace;
+  --mont: "Montserrat", sans-serif;
+  --pt: "PT Sans Narrow", sans-serif;
+  --gia: "Poppins", sans-serif;
+  --peach: "PeachBrown", cursive;
+  --shutter: "shutter", serif;
+  --ita: "Italiana", serif;
+
+  --f-size: 15;
+  --f-unit: 1vmin;
+  --f: calc(var(--f-size) * var(--f-unit));
+  --bg: #181717;
+}
+
+.eosrpptl {
+  display: block;
+  width: 450px;
+  padding:10px;
+  margin: auto;
+  position: relative;
+  border-top:2px solid var(--color);
+  transform:translatey(50px);
+  position:relative;
+}
+.eosrpptl::before{
+  content:"";
+  width:2px;
+  height: 85%;
+  background:var(--color);
+  position:absolute;
+  top:64px;
+  left:70px;
+}
