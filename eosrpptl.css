@@ -40,7 +40,7 @@
   margin: auto;
   position: relative;
   border-top:2px solid var(--color);
-  transform:translatey(50px);
+  margin-top:50px;
   position:relative;
 }
 .eosrpptl::before{
