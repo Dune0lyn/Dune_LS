@@ -91,7 +91,7 @@
   font-size:100px;
   color:var(--color);
   position:absolute;
-  top:-45px;
+  top:-5px;
   left:30px;
   z-index:-1
 }
