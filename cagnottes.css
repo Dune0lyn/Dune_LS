@@ -1,0 +1,54 @@
+/* RADIAL CAGNOTE PROGRESS*/
+/*** RADIAL PROGRESS ***/
+/* Circumference = 2πr */
+/* π = 3.1415926535898 */
+/* r = 35 */
+
+.cagnotte .circ, .cagnottetopic .circ{position:relative;width:200px;display:inline-block;}
+.cagnotte .stats,.cagnottetopic .stats{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 51px;
+    left: 0;
+    transform: translateX(-8px);
+    right: 0;
+}
+.cagnotte prc, .cagnotte name,.cagnottetopic prc,.cagnottetopic name{
+  display:block !important;  
+font: 400 30px var(--pt);
+}
+.cagnotte name,.cagnottetopic name{
+  font-size:15px;
+  text-transform:uppercase
+}
+
+
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 90%;
+  position:relative;
+}
+svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; /* Circumference */
+    stroke-width: 2;
+}
+svg.radial-progress circle.incomplete {
+    opacity: 0.15;
+}
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129; /* Circumference */
+}
+svg.radial-progress text {
+    fill: #fff;
+    text-anchor: middle;
+}
+svg.radial-progress circle {
+    stroke: var(--orange);
+}
