@@ -25,7 +25,7 @@ html,body{background:var(--dark1)}
   height:auto;
   margin:auto;
   padding:10px;
-  color:var(--grey);
+  color:var(--black);
   text-align:justify;
   font-family:var(--timesnr);
   font-size:12px;
