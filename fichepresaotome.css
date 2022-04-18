@@ -101,6 +101,7 @@ html,body{background:var(--dark1)}
   font-family:var(--spart);
   text-transform:uppercase;
   color:var(--colo);
+  font-weight:bold;
 }
 
 .mid .inf ft{
