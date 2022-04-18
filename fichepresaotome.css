@@ -82,7 +82,7 @@ html,body{background:var(--dark1)}
 .mid .inf{
   margin-top:30px;
   background:var(--dark1);
-  width:70%;
+  width:60%;
   padding:30px 10px 10px 70px;
   transform:translatex(35%);
   height:290px;
