@@ -100,7 +100,7 @@ html,body{background:var(--dark1)}
   display:inline; 
   font-family:var(--spart);
   text-transform:uppercase;
-  color:var(--colo);
+  color:var(--dunecolo);
   font-weight:bold;
 }
 
