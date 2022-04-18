@@ -1,0 +1,162 @@
+@font-face {font-family: "Alien League"; src: url("https://dune0lyn.github.io/Dune_LS/alienleagueexpand.ttf") format("truetype"); }
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --colo:#ff7957;
+  
+  --grey: #d3d3d3;
+
+  --dark1: #0f0f0f;
+  --dark2: #202020;
+  --dark3: #414141;
+  
+  --spart:'Spartan', sans-serif;
+  --timesnr:'Times New Roman', serif;
+  --xan:'Xanh Mono', monospace;
+  --alien:"Alien League"
+}
+
+html,body{background:var(--dark1)}
+
+#fiche{
+  background:var(--dark2);
+  width:500px;
+  height:auto;
+  margin:auto;
+  padding:10px;
+  color:var(--grey);
+  text-align:justify;
+  font-family:var(--timesnr);
+  font-size:12px;
+  position:relative;
+  border:20px solid var(--dark1);
+}
+
+#fiche .head>*{display:block;}
+
+.head prenom, .head nom{
+  font-family:var(--alien);
+  font-size:40px;
+  text-shadow:1px 1px 0px var(--dark1);
+  width:330px;
+  text-align:right;
+}
+.head nom{
+  font-style:italic;
+  color:var(--grey);
+  text-shadow:1px 1px 0px var(--dark1);
+  color:var(--colo);
+}
+
+.head quote{
+  width:330px;
+  text-align:right;
+  font-family:var(--xan);
+  font-size:11px;
+  font-style:italic;
+}
+
+.head .ico{
+  width:130px;
+  height:130px;
+  position:absolute;
+  top:0;
+  right:0;
+  border-radius:100%;
+  background:var(--colo);
+  border:5px solid var(--dark1);
+  text-align:center;
+  box-shadow: 0px 0px 0px 20px rgb(0 0 0 / 10%);
+}
+
+.head .ico img{
+  width:120px; 
+  height:120px;
+  margin-top:5px;
+  border-radius:100%;
+}
+
+#fiche .mid{position:relative;}
+
+.mid .inf{
+  margin-top:30px;
+  background:var(--dark1);
+  width:70%;
+  padding:30px 10px 10px 70px;
+  transform:translatex(35%);
+  height:290px;
+  border-radius:50px 0px 0px 0px;
+}
+
+.mid .inf>div{
+  width:78%;
+  height:100%;
+  overflow:auto;
+  line-height:20px;
+}
+
+#fiche lab{ 
+  display:inline; 
+  font-family:var(--spart);
+  text-transform:uppercase;
+  color:var(--colo);
+}
+
+.mid .inf ft{
+  font-family:var(--xan);  
+  text-transform:uppercase;
+  color:var(--colo);
+  display:block;
+  margin:20px;
+}
+
+.mid .ava{
+  position:absolute;
+  bottom:-20px; left:10px;
+  box-shadow: -10px 10px 0 var(--dark1);
+}
+
+.bot{
+  margin-top:40px;
+  position:relative;
+  background:var(--dark1);
+  padding:10px;
+  height:320px;
+}
+
+.bot title{
+  display:block;
+ font-family:var(--alien);
+  font-size:18px;
+  width:30%;
+  position:absolute;
+  top:0;
+  right:0;
+  padding-top:20px;
+  text-align:center;
+  height:70px;
+  color:var(--colo);
+}
+
+.bot .story{
+  width: 68%;
+  height:100%;
+  overflow:auto;
+}
+
+.bot .subInf{
+  width: 26.2%;
+  height: 215px;
+  overflow:auto;
+  position:absolute;
+  bottom:-10px;
+  right:-5px;
+  padding:30px 10px 10px 20px;
+  background:var(--colo);
+  border-radius:50px 0px 0px;
+  color:var(--dark1);
+  line-height:20px;
+}
+
+.bot .subInf lab{color:var(--dark1) !important;font-weight:bold;letter-spacing:-1px}
