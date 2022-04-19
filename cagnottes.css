@@ -4,8 +4,8 @@
 /* π = 3.1415926535898 */
 /* r = 35 */
 
-.cagnotte .circ, .cagnottetopic .circ{position:relative;width:200px;display:inline-block;}
-.cagnotte .stats,.cagnottetopic .stats{
+.cagnotte .circ, .cagnottetopic .circ, .cagnottetopicfinies .circ{position:relative;width:200px;display:inline-block;}
+.cagnotte .stats,.cagnottetopic .stats,.cagnottetopicfinies .stats{
     text-align: center;
     width: 60%;
     margin: auto;
@@ -15,11 +15,11 @@
     transform: translateX(-8px);
     right: 0;
 }
-.cagnotte prc, .cagnotte name,.cagnottetopic prc,.cagnottetopic name{
+.cagnotte prc, .cagnotte name,.cagnottetopic prc,.cagnottetopic name,.cagnottetopicfinies prc,.cagnottetopicfinies name{
   display:block !important;  
 font: 400 30px var(--pt);
 }
-.cagnotte name,.cagnottetopic name{
+.cagnotte name,.cagnottetopic name,.cagnottetopicfinies name{
   font-size:15px;
   text-transform:uppercase
 }
