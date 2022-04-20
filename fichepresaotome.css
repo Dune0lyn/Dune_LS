@@ -61,6 +61,7 @@ html,body{background:var(--dark1)}
   width:130px;
   height:130px;
   position:absolute;
+  z-index:10;
   top:0;
   right:0;
   border-radius:100%;
