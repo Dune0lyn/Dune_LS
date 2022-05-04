@@ -450,6 +450,8 @@ background:var(--white);
   text-align:center;
 }
 .panliens .onemember .pseudo a{
+  font-family:var(--ita);
+  font-weight:bold;
   font-size:20px;
   text-transform:uppercase;
   color:var(--white);
