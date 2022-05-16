@@ -6,6 +6,7 @@
     --dark2: #202020;
     --dark3: #414141;
   --color: #0e638b;
+  --color2:#94121a;
 
   --open: "Open Sans", sans-serif;
   --xan: "Xanh Mono", monospace;
@@ -16,11 +17,6 @@
   --peach: "PeachBrown", cursive;
   --shutter: "shutter", serif;
   --ita: "Italiana", serif;
-
-  --f-size: 15;
-  --f-unit: 1vmin;
-  --f: calc(var(--f-size) * var(--f-unit));
-  --bg: #181717;
 }
 
 .kanaanrp {
