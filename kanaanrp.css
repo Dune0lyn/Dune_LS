@@ -36,7 +36,7 @@
 	height: 250px;
 	transform: rotate(45deg);
 	background-color: var(--color);
-	opacity: 1;
+	opacity: 0.5;
   mix-blend-mode:screen;
 }
 
@@ -50,7 +50,7 @@
 	height: 250px;
 	transform: rotate(45deg);
 	background-color: var(--color2);
-	opacity: 1;
+	opacity: 0.5;
 }
 
 .kanaanrp .entete{
