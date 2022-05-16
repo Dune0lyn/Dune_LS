@@ -1,3 +1,28 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  
+  --dark1: #0f0f0f;
+    --dark2: #202020;
+    --dark3: #414141;
+  --color: #0e638b;
+
+  --open: "Open Sans", sans-serif;
+  --xan: "Xanh Mono", monospace;
+  --inc: "Inconsolata", monospace;
+  --mont: "Montserrat", sans-serif;
+  --pt: "PT Sans Narrow", sans-serif;
+  --gia: "Poppins", sans-serif;
+  --peach: "PeachBrown", cursive;
+  --shutter: "shutter", serif;
+  --ita: "Italiana", serif;
+
+  --f-size: 15;
+  --f-unit: 1vmin;
+  --f: calc(var(--f-size) * var(--f-unit));
+  --bg: #181717;
+}
+
 .kanaanrp {
   display: block;
   width: 450px;
