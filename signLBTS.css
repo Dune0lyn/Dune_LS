@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans|Nunito|Space+Mono);
+@font-face {
+  font-family: "LostaMasta_Bold";
+  src: url("https://files.jcink.net/uploads2/killingfloor/fonts/LostaMasta_Bold.otf")
+  format("opentype");
+}
+html {
+  background: black;
+}
+body,
+html {
+  background: black;
+  color: white;
+}
+
+::-webkit-scrollbar {
+width: 3px;
+  }
+ 
+::-webkit-scrollbar-track {
+background: transparent;
+border-radius: 2px;  
+}
+ 
+::-webkit-scrollbar-thumb {
+background:transparent;
+background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(197, 22, 5));
+}
+.signLBTS {
+  display: block;
+  width: 450px;
+  height:150px;
+  padding:10px;
+  margin: auto;
+  position: relative;
+}
+
+.signLBTS>div{
+  display:inline-block;
+  vertical-align:bottom;
+  width:30%;
+}
+
+.signLBTS .left{
+  overflow:hidden;
+  border-right:3px solid rgba(197, 22, 5,1);
+  transform:rotate(25deg);
+}
+
+.signLBTS .left .myimg{
+  height:150px;
+  border-radius:50%;
+  overflow:hidden;
+  transform: translatex(20px) rotate(-25deg);
+  position:relative;
+  z-index:1;
+}
+.signLBTS .left .myimg:before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;    
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(197, 22, 5));
+  mix-blend-mode: color-dodge;
+  z-index:10;
+}
+
+.signLBTS .left img{
+  height:100%;
+  width:auto;
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+.signLBTS .right{
+  width:62%;
+  margin-left:3%;
+}
+
+.signLBTS .right>*{
+  display:block;
+  font-family: 'work sans', sans-serif;
+  font-size: 9px;
+  text-align:justify;
+}
+
+.signLBTS .right hd{
+  font-size:12px;
+  letter-spacing:2px;
+  font-family: LostaMasta_Bold;
+  text-transform:uppercase;  
+  color: rgba(197, 22, 5,1);
+}
+
+.signLBTS .right quote{
+  height:70px;
+  overflow:auto;
+  padding-right:1px;
+}
+
+.signLBTSbis{
+  transform: scaleX(-1);
+}
+
+.signLBTSbis .right{
+  transform: scaleX(-1);
+}
+
+.signLBTSbis hd{
+  color:rgba(20, 80, 163,1) !important;
+}
+
+.signLBTSbis .myimg:before{    
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(20, 80, 163,1)) !important;
+}
+
+.signLBTSbis .left{
+  border-right:3px solid rgba(20, 80, 163,1);
+}
