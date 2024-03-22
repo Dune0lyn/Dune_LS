@@ -48,6 +48,7 @@ svg.radial-progress circle.complete {
 svg.radial-progress text {
     fill: #fff;
     text-anchor: middle;
+    display:none;
 }
 svg.radial-progress circle {
     stroke: var(--orange);
