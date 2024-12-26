@@ -1,10 +1,3 @@
-@font-face {
-  font-family: "dreamcottage";
-  src: url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff2")
-      format("woff2"),    url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff")
-      format("woff");
-}
-
 .krp1{
   width:600px;
   text-align:justify;
@@ -123,4 +116,11 @@
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+@font-face {
+  font-family: "dreamcottage";
+  src: url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff2")
+      format("woff2"),    url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff")
+      format("woff");
 }
