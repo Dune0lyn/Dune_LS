@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "dreamcottage";
+  src: url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff2")
+      format("woff2"),    url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff")
+      format("woff");
+}
+
+.krp1{
+  width:600px;
+  text-align:justify;
+}
+
+.krp1 .entete{
+  position:relative;
+  height:250px;
+  z-index:1;
+}
+.krp1 rond{
+  display:block;
+  width:150px;
+  height:150px;
+  position:absolute;
+  top:20px;
+  left:0px;
+  background:red;
+  border-radius:50%;
+  filter: blur(1.5rem);
+  background: linear-gradient(120deg, #329A95, #F86D4B);
+  background-size: 200% 200%;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  
+  z-index:-1;
+}
+
+.krp1 eclipse{
+  display:block;
+  width:200px;
+  height:200px;
+  background:#202020;  
+  border-radius:50%;
+  position:absolute;
+  top:0px;
+  left:20px;
+  box-shadow: -5px 0px 5px rgba(0,0,0,0.5);
+  z-index:-1;
+  overflow:hidden;
+}
+.krp1 eclipse>img{  
+   -webkit-mask-image: linear-gradient(to left, transparent 45%, black 65%);
+  mask-image: linear-gradient(to left, transparent 45%, black 65%);
+  height:100%;
+  opacity:0.3
+}
+
+.krp1 title{
+  display:block;
+  font-family: "dreamcottage";
+  font-size:20px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  position:absolute;
+  top:70px;
+  left:150px;
+  color:#329A95;
+  text-shadow:1px 1px 0px #000
+}
+.krp1 quote{
+  display:block;
+  width:500px;
+  font-size:10px;
+  font-style:italic;
+  position:absolute;
+  top:90px;
+  left:100px;
+  text-shadow:1px 1px 0px #000
+}
+.krp1 inf{
+  display:block;
+  width:500px;
+  font-size:10px;
+  font-style:italic;
+  text-align:right;
+  position:absolute;
+  top:120px;
+  left:100px;
+  font-family: "dreamcottage";
+  color:#F86D4B;
+}
+
+.krp1>.rp{
+  margin:0px 10px;
+}
+.krp1>.rp sp{
+  display:inline;
+  color: #329A95;
+  font-family: "dreamcottage";
+  letter-spacing:1px;
+}
+
+.krp1 credit{
+  display:block;
+  text-align:center;
+  opacity:0.5;
+  font-family: "dreamcottage";
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:#F86D4B;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
