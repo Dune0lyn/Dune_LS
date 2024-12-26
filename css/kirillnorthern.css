@@ -1,0 +1,75 @@
+
+@font-face {
+  font-family: "dreamcottage";
+  src: url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff2")
+      format("woff2"),    url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: 'Parisienne';
+  src:url('https://dl.dropbox.com/s/86m4v15c0wgr1z8/Parisienne-Regular.ttf');format("truetype");}
+
+.SignK1{
+   width: 400px;
+  height: 200px;
+position:relative;
+  z-index:10;
+}
+
+.SignK1>img { height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -webkit-mask-image: url('https://i.postimg.cc/9fKMqf6k/mask2.png');
+  mask-image:url('https://i.postimg.cc/9fKMqf6k/mask2.png');
+  mask-repeat: no-repeat;
+mask-size: contain;
+  opacity:1;
+  transition: opacity 0.5s ease-in;
+}
+
+.SignK1:hover>img{
+  opacity:0;
+}
+
+.SignK1:before{
+  content: "";
+  display:block;
+  width:76.5%;
+  height:100%;
+  background:url('https://zupimages.net/up/24/52/wbqy.png');
+  filter: grayscale(100%);
+  opacity:0.5;
+  background-size:cover;
+  z-index:-1;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.SignK1>div{
+  position:absolute;
+  bottom:40px;
+  left:20px;
+  color:#FBA7A6;
+  font-family:'dreamcottage';
+  text-transform:uppercase;
+}
+.SignK1>div>span{  
+  font-family: 'Parisienne';
+  text-transform:lowercase;
+  font-size:23px
+}
+.SignK1>div:before{
+  content:"";
+  border:2px solid #c4b49c;
+  padding:5px;
+  opacity:0.5;
+  width:100%;
+  height:100%;
+  display:block;
+  mix-blend-mode:color-dodge;
+  position:absolute;
+  bottom:-6px;
+  left:-6px;
+}
