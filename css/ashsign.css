@@ -1,0 +1,64 @@
+@font-face {font-family: 'Dreamy Romantic';src:url('https://dl.dropbox.com/s/6ixls8f86ij8ddf/DreamyRomantic-z84l3.otf');format("truetype");}
+.signa1 {
+  margin:auto;
+  text-align: center;
+  position: relative;
+  width:250px;
+  padding-top:20px;
+}
+
+
+.signa1 .myimg::before,
+.signa1 .myimg::after {
+  content: "";
+  position: absolute;
+  width:150px;
+  height: 100px;
+  background-color: #453446;
+  z-index: -1;
+}
+
+.signa1 .myimg::before {
+  top: -25%;
+  left: -15%;
+}
+
+.signa1 .myimg::after {
+  bottom: -25%;
+  right: -15%;
+}
+
+.signa1 .myimg {
+  position: relative;
+  width: 250px;
+  height: 125px;
+  z-index: 1;
+}
+.signa1 .myimg>img {width:49%; display:inline-block;}
+
+.signa1 .line-left,
+.signa1 .line-right {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: var(--text2);
+  z-index: -1;
+}
+.signa1 .line-left { 
+  bottom: 20%;
+  left: -15%;
+  }
+
+.signa1 .line-right {
+  top: 20%;
+  right: -15%;
+}
+
+.signa1 .text {
+  position: relative;
+  z-index: 3;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--text2);
+  font-family: 'Dreamy Romantic';
+}
