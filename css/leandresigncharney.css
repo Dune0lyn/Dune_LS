@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "dreamcottage";
+  src: url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff2")
+      format("woff2"),
+    url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff")
+      format("woff");
+}
+
+:root{
+  --color1:#E8D6D7;/*#BFBDBD;  */
+  --base: #4872a3;
+  --bg-blend: luminosity;
+  --fg-blend:lighten;
+  --foreground: #4d171b;
+}
+
+.signL1{
+  width:200px;
+  margin:auto;
+  position:relative;
+  padding-top:10px;
+  z-index:1
+}
+
+.signL1 img{
+  height:100px;
+  width:auto;
+  transform:scaleX(-1);
+  z-index:1;
+  filter: grayscale(50%);
+  mix-blend-mode: var(--bg-blend);
+}
+
+.signL1::before{
+  content:"";
+  display:block;
+  width:180px;
+  height:100px;
+  border:1px solid var(--color1);
+  border-radius:2%;
+  position:absolute;
+  top:0px;
+  left:10px;
+  z-index:10;
+}
+
+.signL1::after {
+  background-color:    var(--foreground);
+  bottom:              0;
+  content:             '';
+  height:              100px;
+  left:                0;
+  mix-blend-mode:      var(--fg-blend);
+  position:            absolute;
+  right:               0;
+  top:                 10px;
+  width:               180px;
+  z-index:             1;
+}
+
+
+.signL1 title{
+  display:block;
+  color:var(--color1);
+  font-family: "dreamcottage";
+  text-transform:uppercase;
+  position:absolute;
+  bottom:-3px;
+  right:8px;
+}
+
+.signL1 quote{
+  display:block;
+  width:60px;
+  height:180px;
+  color:var(--color1);
+  font-family:poppins;
+  font-weight:100;
+  text-align:right;
+  font-size: 9px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position:absolute;
+  top:10px;
+  right:205px;
+}
