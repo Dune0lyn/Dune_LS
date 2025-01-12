@@ -1,0 +1,52 @@
+.signA1{
+  width:350px;
+  margin:auto;
+  text-align:center;
+  color: var(--text2);
+}
+
+.signA1 .img{
+  display:inline-block;
+  vertical-align:middle;
+  margin:2px;
+  width:50px;
+  height:75px;
+  overflow:hidden;
+  filter:grayscale(100%)
+}
+
+.signA1 .img.middle{
+  width:100px;
+  height:100px;
+}
+
+.signA1 .img img{
+  height:100%;
+}
+
+@font-face {font-family: 'Clearstone';src:url('https://dl.dropbox.com/s/v6pa1mx66w5wbtm/ClearstonePersonalUse-K7n3X.otf');format("truetype");}
+
+.signA1 title{
+  display:block;
+  font-family: 'Clearstone';
+  font-size:28px;
+  font-weight:bold;
+  letter-spacing:2px;
+  line-height:28px;
+}
+
+@font-face {
+  font-family: "dreamcottage";
+  src: url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff2")
+      format("woff2"),
+    url("https://files.jcink.net/uploads2/ariadnecodes/FONTS/dreamcottage_regular_webfont.woff")
+      format("woff");
+}
+.signA1 quote{
+  display:block;
+  width:150px;
+  margin:auto;
+  font-family: "dreamcottage";
+  font-size:10px;
+  letter-spacing:1px
+}
