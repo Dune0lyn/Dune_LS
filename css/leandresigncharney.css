@@ -7,7 +7,7 @@
 }
 
 :root{
-  --color1:#E8D6D7;/*#BFBDBD;  */
+  --Lcolor1:#E8D6D7;/*#BFBDBD;  */
   --base: #4872a3;
   --bg-blend: luminosity;
   --fg-blend:lighten;
@@ -36,7 +36,7 @@
   display:block;
   width:180px;
   height:100px;
-  border:1px solid var(--color1);
+  border:1px solid var(--Lcolor1);
   border-radius:2%;
   position:absolute;
   top:0px;
@@ -61,7 +61,7 @@
 
 .signL1 title{
   display:block;
-  color:var(--color1);
+  color:var(--Lcolor1);
   font-family: "dreamcottage";
   text-transform:uppercase;
   position:absolute;
@@ -73,7 +73,7 @@
   display:block;
   width:60px;
   height:180px;
-  color:var(--color1);
+  color:var(--Lcolor1);
   font-family:poppins;
   font-weight:100;
   text-align:right;
