@@ -425,7 +425,7 @@ border: 1px solid var(--bgdark);
 }
 
 .partos .droite{
-  width:28%;
+  width:28% !important;
   background:linear-gradient(to bottom, var(--color1), var(--bgdark));
   display:flex;
   flex-direction:column;
