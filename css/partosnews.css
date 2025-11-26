@@ -404,7 +404,7 @@ border: 1px solid var(--bgdark);
 }
 
 .partos .gauche div:nth-child(3)>*{ width: 50%;}
-.partos .gauche div:nth-child(3) xx{  
+.partos .gauche div xx{  
     display: inline;
     font-style: normal;
     font-weight: bold;
